@@ -1,0 +1,302 @@
+.slider {
+  @apply appearance-none w-full h-[15px] rounded-md bg-gray-400 outline-none opacity-70 transition-opacity duration-200
+}
+  
+.slider:hover {
+  @apply opacity-100;
+}
+  
+.slider::-webkit-slider-thumb {
+  @apply appearance-none w-6 h-6 rounded-full bg-blue-100 cursor-pointer outline-black;
+}
+.slider::-moz-range-thumb {
+  @apply w-6 h-6 rounded-full bg-blue-100 cursor-pointer outline-black;
+}
+.outline-black {
+  outline: 10px solid #000;
+}
+.detail-jpg {
+  width: 450px;
+  height: 300px;
+}
+
+/* search bar */
+.search-result {
+  padding: 10px 20px;
+
+}
+.search-result:hover {
+  background-color: #efefef;
+}
+.results-list {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 8px #ddd;
+  border-radius: 10px;
+  margin-top: 20px;
+  max-height: 300px;
+  overflow-y: auto;  
+}
+
+/* breadcrumb */
+.breadcrumbs {
+  margin: 20px auto;
+  color: #000;
+}
+.breadcrumbs > *{
+  display: inline-block;
+  margin-right: 20px;
+}
+.breadcrumbs .crumb::after {
+  content: ">";
+  margin-left: 10px;
+  color: #000;
+}
+.breadcrumbs .crumb:last-child::after {
+  display: none;
+}
+.breadcrumbs .crumb .a {
+  color: #000;
+}
+.card-checkbox {
+  @apply appearance-none h-[90px] w-[210px] rounded-lg bg-white p-3 outline-none transition-colors duration-200;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #f2f2f2;
+  /* padding-left: 10px; */
+}
+.card-checkbox:before {
+  @apply block;
+  content: attr(data-label);
+  color: black;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+  margin-left: 30%;
+  
+}
+.card-checkbox::after {
+  @apply block;
+  content: url("./assets//icons//mountain\ 1.png"); 
+  /* content: attr(id); */
+  position: absolute;
+  top: 30%;
+  margin-left: 5%;
+}
+.card-checkbox.budaya::after {
+  @apply block;
+  content: url("./assets//icons//masks\ 1.png"); 
+  /* content: attr(id); */
+  position: absolute;
+  top: 30%;
+  width: 50%;
+  height: auto;
+  margin-left: 5%;
+}
+.card-checkbox.pantai::after {
+  @apply block;
+  content: url("./assets//icons//island-with-palm-trees\ 1.png"); 
+  /* content: attr(id); */
+  position: absolute;
+  top: 30%;
+  width: 50%;
+  height: auto;
+  margin-left: 5%;
+}
+.card-checkbox.taman::after {
+  @apply block;
+  content: url("./assets//icons//playground\ 1.png"); 
+  /* content: attr(id); */
+  position: absolute;
+  top: 30%;
+  width: 50%;
+  height: auto;
+  margin-left: 5%;
+}
+/*  */
+.card-checkbox.toilet::after {
+  @apply block;
+  content: url("./assets//icons//toilet\ 1.png"); 
+  /* content: attr(id); */
+  position: absolute;
+  top: 30%;
+  width: 50%;
+  height: auto;
+  margin-left: 5%;
+}
+.card-checkbox.restoran::after {
+  @apply block;
+  content: url("./assets//icons//fork\ 1.png"); 
+  /* content: attr(id); */
+  position: absolute;
+  top: 30%;
+  width: 50%;
+  height: auto;
+  margin-left: 5%;
+}
+.card-checkbox.wifi::after {
+  @apply block;
+  content: url("./assets//icons//wi-fi\ 1.png"); 
+  /* content: attr(id); */
+  position: absolute;
+  top: 30%;
+  width: 50%;
+  height: auto;
+  margin-left: 5%;
+}
+.card-checkbox.hotel::after {
+  @apply block;
+  content: url("./assets//icons//hotel\ 1.png"); 
+  /* content: attr(id); */
+  position: absolute;
+  top: 30%;
+  width: 50%;
+  height: auto;
+  margin-left: 5%;
+}
+.card-checkbox.masjid::after {
+  @apply block;
+  content: url("./assets//icons//mosque\ 1.png"); 
+  /* content: attr(id); */
+  position: absolute;
+  top: 30%;
+  width: 50%;
+  height: auto;
+  margin-left: 5%;
+}
+.card-checkbox.atm::after {
+  @apply block;
+  content: url("./assets//icons//atm\ 1.png"); 
+  /* content: attr(id); */
+  position: absolute;
+  top: 30%;
+  width: 50%;
+  height: auto;
+  margin-left: 5%;
+}
+.card-checkbox.foto::after {
+  @apply block;
+  content: url("./assets//icons//photographer\ 1.png"); 
+  /* content: attr(id); */
+  position: absolute;
+  top: 30%;
+  width: 50%;
+  height: auto;
+  margin-left: 5%;
+}
+.card-checkbox.tour::after {
+  @apply block;
+  content: url("./assets//icons//tour-guide\ 1.png"); 
+  /* content: attr(id); */
+  position: absolute;
+  top: 30%;
+  width: 50%;
+  height: auto;
+  margin-left: 5%;
+}
+.card-checkbox:checked:before {
+  color: white; 
+}
+.card-checkbox:hover {
+  @apply bg-gray-400;
+  transform: scale(1.02);
+}
+
+.card-checkbox:focus {
+  outline: none;
+  
+}
+
+.card-checkbox:checked {
+  @apply bg-blue-500;
+}
+/* #WisataAlam {
+  content: url("./assets//icons//mountain\ 1.png");
+} */
+.text-input {
+  @apply appearance-none h-[80px] rounded-3xl pl-3 pr-3 outline-none transition-colors duration-200;
+}
+
+.text-input:hover {
+  @apply bg-gray-400;
+}
+
+.text-input:focus {
+  @apply bg-gray-10 border-blue-500;
+  outline: none;
+}
+
+.text-input::placeholder {
+  @apply text-gray-70;
+}
+
+.button {
+    @apply text-white p-3 h-[75px] text-heading-4 font-label font-bold rounded-lg flex justify-center items-center text-2xl ;
+}
+.button:hover {
+  @apply bg-gray-400;
+}
+.width {
+  @apply w-1/2
+}
+.justify-betwen{
+  @apply justify-between
+}
+
+/* .bg-all {
+  @apply bg-blue-90
+} */
+.padding {
+  @apply p-10
+}
+.paddingl {
+  @apply pl-20
+}
+.paddingr {
+  @apply pr-20
+}
+.white-shadow {
+  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.5);
+}
+.margin {
+  @apply mt-10
+}
+.marginr {
+  @apply mr-20
+}
+.marginn {
+  @apply m-4
+}
+.mt5 {
+  @apply pt-5
+}
+
+ @layer components {
+    .bg-gray-400 {
+      background-color: #cbd5e0;
+    }
+    .bg-blue-500 {
+      background-color: #3B82F6
+    }
+    .bg-gray-200 {
+      background-color: #f2f2f2;
+    }
+    .border-blue-500 {
+      border-color: #3B82F6      
+    }
+    .border-gray-300 {
+      border-color: #e2e8f0
+    }
+  }
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+  
