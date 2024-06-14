@@ -5,12 +5,24 @@ import Container from "./Container";
 // import { wisataData } from "../assets/namaTempatWisata";
 import { SearchBar } from "./search/SearchBar";
 import { SearchResultList } from "./search/SearchResultList";
+import { useMediaQuery } from "@uidotdev/usehooks";
 // import { SearchResultList } from "./search/SearchResultList";
 // import Login from "../pages/Login"
+import BurgerIcon from "../assets/icons/burger-bar.png"
+// import {unstable_HistoryRouter} from "react-router-dom"
 
 const Header = () => {
     const [results, setResults] = useState([])
     console.log("ini resultsnya:",results)
+    const isSmallDevice = useMediaQuery("only screen and (max-width: 768px)");
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+        // Menambahkan kelas yang memicu animasi ketika menu dibuka atau ditutup
+        
+    };  
+    
+    
     // const [searchTerm, setSearchTerm] = useState("")
     // const [results, setResult] = useState([])
     // const handleChange = e => {
@@ -25,11 +37,11 @@ const Header = () => {
     // }
 
     return (
-        <header className="h-[95px] fixed left-0 right-0 top-0 bg-white shadow-lg p-4 z-20">
+        <header className="h-[95px] left-0 right-0 top-0 bg-white shadow-lg p-4 z-20">
             <Container>
-                <div className="flex gap-40 items-center h-12">
-                    <div className="">
-                        <h1 className="text-4xl font-sans font-bold -ml-40">DolanJog</h1>
+                <div className={`flex items-center h-12 ${isSmallDevice ? "" : "gap-40"}`}>
+                    <div className={`${isSmallDevice ? "ml-0" : "-ml-40"}`}>
+                        <h1 className={`font-sans font-bold ${isSmallDevice ? "text-xl" : "text-4xl"}`}>DolanJo</h1>
                     </div>
                     {/* membuat search */}
                     {/* <form onSubmit={handleSubmit} className="h-[50px] w-[300px] flex items-center">
@@ -46,22 +58,73 @@ const Header = () => {
                         </button>
                     </form> */}
                     {/* <SearchBar suggestions={wisataData}/> */}
-                    <div className="search-bar-container" style={{position: 'relative'}}>
+                    <div className={`search-bar-container ${isSmallDevice ? "ml5" : ""}`} style={{position: 'relative'}}>
                         <SearchBar setResults={setResults} />
                         {/* {results && results.length > 0 && <SearchResultList results={results} />} */}
-                        {results && results.map((result) => (
+                        {/* {results && results.map((result) => (
                                 <SearchResultList key={result.id} result={result} />
-                            ))}
+                            ))} */}
+                        {results && results.length > 0 ? <SearchResultList results={results} /> : null}
+
+                        {/* {results && results.length > 0 ? <SearchResultList results={results} /> : null} */}
 
                     </div>
-                    <ul >
-                        <li className="flex items-center gap-5">
-                            <a href="/#" className="text-heading-3 text-gray-70 font-sans font-bold">Home</a>
-                            <a href="/rekomendasi" className="text-heading-3 text-gray-70 font-sans font-bold">Rekomendasi</a>
-                            <a href="/" className="text-heading-3 text-gray-70 font-sans font-bold">Destinasi</a>
-                            {/* <a href="/login" className="text-heading-3 text-gray-70 font-sans font-bold">Login</a> */}
-                        </li>
-                    </ul>
+                    <div className="ml-20">
+
+                        {isSmallDevice ? (
+                            <div className="relative">
+                            <button onClick={toggleMenu} className="burger-button">
+                                <img src={BurgerIcon} alt="Menu" height="24" width="24" />
+                            </button>
+                            {isMenuOpen && (
+                                <ul className="flex flex-col items-center gap-2 bg-white shadow-lg p-5 rounded-lg absolute top-12 right-0 z-10">
+                                <li>
+                                    <a href="/#" className="text-heading-3 text-gray-70 font-sans font-bold">
+                                    Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/rekomendasi" className="text-heading-3 text-gray-70 font-sans font-bold">
+                                    Rekomendasi
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/#FAQ" className="text-heading-3 text-gray-70 font-sans font-bold">
+                                    FAQ
+                                    </a>
+                                </li>
+                                </ul>
+                            )}
+                            </div>
+                        ) : (
+                            <ul className="flex items-center gap-5">
+                            <li>
+                                <a href="/#" className="text-heading-3 text-gray-70 font-sans font-bold">
+                                Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/rekomendasi" className="text-heading-3 text-gray-70 font-sans font-bold">
+                                Rekomendasi
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/#FAQ"  className="text-heading-3 text-gray-70 font-sans font-bold"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    if (window.location.pathname === '/') {
+                                        document.getElementById('FAQ').scrollIntoView({ behavior: 'smooth' });
+                                    } else {
+                                        window.location.href = '/#FAQ';
+                                    }
+                                }}
+                                >
+                                FAQ
+                                </a>
+                            </li>
+                            </ul>
+                        )}
+                    </div>
                     
                     {/* membuat button */}
                     {/* <button className="bg-blue-100 text-xl font-label text-white m-5 p-4 rounded-lg w-72">Masuk</button> */}

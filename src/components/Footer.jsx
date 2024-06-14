@@ -11,7 +11,7 @@ const Footer = () => {
             <Container size="lg">
                 <div className="text-center font-sans text-gray-50 font-medium p-3">
                     <h1 className="text-4xl text-black font-bold">
-                        DolanJog
+                        DolanJo
                     </h1>
                     <p>&copy; 2024 DolanJo&trade;. All Rights Reserved. Built With React JS, Flask And Tailwind CSS</p>
                 </div>

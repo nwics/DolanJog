@@ -10,6 +10,7 @@ import React,{ useState} from "react"
 // import clif from "../assets/home/cliff.png"
 // import BreadCrumbs from "../components/BreadCrumbs"
 import { wisataData } from "../assets/namaTempatWisata"
+import { useMediaQuery } from "@uidotdev/usehooks"
 // import Container from "../components/Container"
 // import Item from "antd/es/list/Item"
 // import { TimePicker } from "antd"
@@ -18,7 +19,10 @@ import { wisataData } from "../assets/namaTempatWisata"
 
 const Rekomendasi = () => {
     // const navigate = useNavigate()
-    const [ptag, setPtag] = useState({ptag1:"", ptag2:""})
+    // const TempatWisata = wisataData
+    const isSmallDevice = useMediaQuery("only screen and (max-width: 768px)");
+    // const [ptag, setPtag] = useState({ptag1:"", ptag2:""})
+    const [loading, setLoading] = useState(false);
     // const [rekomendasi, setRekomendasi] = useState([])
     const [recommendations, setRecommendations] = useState([]);
     // const [tempatWisata, setTempatWisata] = useState([])
@@ -28,18 +32,22 @@ const Rekomendasi = () => {
         waktu: "",
         kategori: "",
         deskripsi: "",
-    });
-    
+    });   
     // const format = "HH.mm"
     const HandleClick = (e) => {
         e.preventDefault()
+        var WaktuInput = document.getElementById("waktuInput")
+        if (!WaktuInput.value) {
+            alert("Tolong isi bagian Waktu")
+        }
         // const {name, value} = e.target;
         // setInputs({...FormData, [name]:value});
-        setPtag({
-            ptag1: `Hasil untuk "`+inputs+`"...`,
-            ptag2: "Rekomendasinya adalah ....."
+        // setPtag({
+        //     ptag1: `Hasil untuk "`+inputs+`"...`,
+        //     ptag2: "Rekomendasinya adalah ....."
         
-        })
+        // })
+        setLoading(true);
         console.log("Meminta request pada Backend .....")
         fetch("/hasil", {
             method: "POST",
@@ -55,6 +63,7 @@ const Rekomendasi = () => {
         })
         .then((data) =>{
             console.log("succes:", data)
+            setLoading(false);
             setRecommendations(data)
         });
         console.log("data yang diterima dari server")
@@ -91,6 +100,15 @@ const Rekomendasi = () => {
         // console.log(recommendation);
         const tempatWisata = wisataData.find(item => item.nama===recommendation)
         // const id = tempatWisata ? tempatWisata.id : recommendation
+        if (!tempatWisata) {
+            return (
+                <div className="bg-white shadow-lg rounded-xl m-5 overflow-hidden w-[330px] h-[232px]">
+                    <div className="px-6 py-4">
+                        <h1 className="items-center">Data not found for {recommendation}</h1>
+                    </div>
+                </div>
+            );
+        }
         return (
             // <Link to={`/produk-details/${product.id}`}></Link>
             <div className="bg-white shadow-lg rounded-xl m-5 overflow-hidden w-[330px] h-[232px]">
@@ -109,17 +127,17 @@ const Rekomendasi = () => {
         {/* <input type="text" /> */}
         {/* <h1 >Selamat datang</h1> */}
         <Header />
-        <div className="flex p-5 ">
+        <div className={`flex p-5 ${isSmallDevice ? "flex-col" : ""}`}>
                 {/* <BreadCrumbs />   */}
                 
-                <div className="pt-20 ml-10 text-xl w-full ">
+                <div className="pt-10 ml-10 text-xl w-full ">
                     <h1 className="font-bold text-4xl text-black">Tempat Rekomendasi</h1>
                     <p>Lakukann pemilihan sesuai dengan apa yang diinginkan</p>
                     <form onSubmit={HandleClick} className="flex-col justify-center mt-10 ">
                         <div className="flex flex-col rounded-xl overflow-hidden">
                             <label className="font-bold text-black">Waktu :</label>
                             <p>klik bagian jam untuk auto</p>
-                            <input className="text-input width bg-blue-100" type="time" name="waktu" value={inputs.waktu} onChange={HandleChange} placeholder="masukkan waktu ....."/> <br/>
+                            <input className="text-input width bg-blue-100" type="time" id="waktuInput" name="waktu" value={inputs.waktu} onChange={HandleChange} placeholder="masukkan waktu ....." required/> <br/>
                         
                         </div>
                         <div className="flex flex-col white-shadow rounded-xl overflow-hidden mt-10 width">
@@ -143,7 +161,7 @@ const Rekomendasi = () => {
                         </div>
                         <div className="flex flex-col rounded-xl overflow-hidden mt-10 white-shadow">
                             <h1 className="font-bold text-black">Kategori :</h1>
-                            <div className="flex gap-10 justify-center">
+                            <div className={`flex ${isSmallDevice ? "flex-col justify-center" : "gap-10 justify-center"} padding`}>
                                 <div >
                                 </div>
                                 <label for="pantai">
@@ -165,30 +183,30 @@ const Rekomendasi = () => {
                             </div>
 
                         </div>
-                        <div className="flex flex-col rounded-xl overflow-hidden mt-10 white-shadow">
+                        <div className= {`flex flex-col rounded-xl overflow-hidden mt-10 white-shadow `}>
                             <h1 className="font-bold text-black ">Fasilitas :</h1>
-                            <div className="flex gap-10 justify-center padding">
-                                <label for="Kamar Mandi"></label>
-                                <input className=" card-checkbox toilet" type="checkbox" id="Kamar Mandi" data-label="Kamar Mandi"name="fasilitas" value="Kamar Mandi" onChange={handleFasilitasChange} /> <br/>
-                                <label for="Restoran"></label>
-                                <input className=" card-checkbox restoran" type="checkbox" id="Restoran" data-label="Restoran" name="fasilitas" value="Restoran" /> <br/>
-                                <label for="WIFI"> </label>
-                                <input className=" card-checkbox wifi" type="checkbox" id="WIFI" data-label="WIFI" name="fasilitas" value="WIFI" onChange={handleFasilitasChange} /> <br/>
-                                <label for="Hotel"></label>
-                                <input className=" card-checkbox hotel" type="checkbox" id="Hotel" data-label="Hotel" name="fasilitas" value="Hotel" onChange={handleFasilitasChange} /> <br/>
-                            </div>
-                            <div>
-                                <br></br>
-                            </div>
-                            <div className="flex gap-10 justify-center">
-                                <label for="Masjid"></label>
-                                <input className=" card-checkbox masjid" type="checkbox" id="Masjid" data-label="Masjid" name="fasilitas" value="Masjid" onChange={handleFasilitasChange} /> <br/>
-                                <label for="ATM"></label>
-                                <input className=" card-checkbox atm" type="checkbox" id="ATM" data-label="ATM" name="fasilitas" value="ATM" onChange={handleFasilitasChange} /> <br/>
-                                <label for="Pemandu"> </label>
-                                <input className=" card-checkbox tour" type="checkbox" id="Pemandu" data-label="Pemandu" name="fasilitas" value="Pemandu" onChange={handleFasilitasChange} /> <br/>
-                                <label for="Fotografer"></label>
-                                <input className=" card-checkbox foto" type="checkbox" id="Fotografer" data-label="Fotografer" name="fasilitas" value="Fotografer" onChange={handleFasilitasChange} /> <br/>
+                            <div className={`${isSmallDevice ? "flex flex-col-2 gap-10" : ""}`}>
+                                <div className={`flex ${isSmallDevice ? "flex-col justify-center marginl" : "gap-10 justify-center"} padding`}>
+                                    <label for="Kamar Mandi"></label>
+                                    <input className={` toilet ${isSmallDevice ? "card-checkbox-hp" : "card-checkbox"} `} type="checkbox" id="Kamar Mandi" data-label="Kamar Mandi"name="fasilitas" value="Kamar Mandi" onChange={handleFasilitasChange} /> <br/>
+                                    <label for="Restoran"></label>
+                                    <input className={` restoran ${isSmallDevice ? "card-checkbox-hp" : "card-checkbox"} `}  type="checkbox" id="Restoran" data-label="Restoran" name="fasilitas" value="Restoran" onChange={handleFasilitasChange} /> <br/>
+                                    <label for="WIFI"> </label>
+                                    <input className={` wifi ${isSmallDevice ? "card-checkbox-hp" : "card-checkbox"} `}  type="checkbox" id="WIFI" data-label="WIFI" name="fasilitas" value="WIFI" onChange={handleFasilitasChange} /> <br/>
+                                    <label for="Hotel"></label>
+                                    <input className={` hotel ${isSmallDevice ? "card-checkbox-hp" : "card-checkbox"} `}  type="checkbox" id="Hotel" data-label="Hotel" name="fasilitas" value="Hotel" onChange={handleFasilitasChange} /> <br/>
+                                </div>
+                            
+                                <div className={`flex ${isSmallDevice ? "flex-col justify-center marginl" : "gap-10 justify-center"} `}>
+                                    <label for="Masjid"></label>
+                                    <input className={` masjid ${isSmallDevice ? "card-checkbox-hp" : "card-checkbox"} `}  type="checkbox" id="Masjid" data-label="Masjid" name="fasilitas" value="Masjid" onChange={handleFasilitasChange} /> <br/>
+                                    <label for="ATM"></label>
+                                    <input className={` atm ${isSmallDevice ? "card-checkbox-hp" : "card-checkbox"} `}  type="checkbox" id="ATM" data-label="ATM" name="fasilitas" value="ATM" onChange={handleFasilitasChange} /> <br/>
+                                    <label for="Pemandu"> </label>
+                                    <input className={` tour ${isSmallDevice ? "card-checkbox-hp" : "card-checkbox"} `}  type="checkbox" id="Pemandu" data-label="Pemandu" name="fasilitas" value="Pemandu" onChange={handleFasilitasChange} /> <br/>
+                                    <label for="Fotografer"></label>
+                                    <input className={` foto ${isSmallDevice ? "card-checkbox-hp" : "card-checkbox"} `}  type="checkbox" id="Fotografer" data-label="Fotografer" name="fasilitas" value="Fotografer" onChange={handleFasilitasChange} /> <br/>
+                                </div>
                             </div>
                         </div>
                         {/* parkir, kamar mandi, restoran, wifi, hotel, tempat ibadah, layanan fotografi, pemandu */}
@@ -201,17 +219,25 @@ const Rekomendasi = () => {
                         </div>
                     </form>
                     
-                    <p>{ptag.ptag1}</p>
-                    <h2>{ptag.ptag2}</h2>
+                    {loading ? (
+                        <div className="flex justify-center items-center mt-10">
+                            <div className="loader"></div>
+                            <p>Loading...</p>
+                        </div>
+                    ) : (
+                        ""
+                    )}
+                    {/* <p>{ptag.ptag1}</p>
+                    <h2>{ptag.ptag2}</h2> */}
                     {/* <h3>{setRecommendations(dataAkhir)}</h3> */}
                     {/* <h3>{tempatWisata}</h3> */}
                     
                 </div>
                 
-                <div className="container pt-20 m-5 w-full white-shadow rounded-xl">
+                <div className={`container pt-10 m-5 w-full white-shadow rounded-xl ${isSmallDevice ? "px-4" : ""}`}>
                     <h1 className="text-black text-4xl font-sans font-bold">Hasil Rekomendasi :</h1>
-                    <div className=" flex flex-wrap">
-                        <div className=" columns-2 gap-40 ml-10">  
+                    <div className={`flex flex-wrap ${isSmallDevice ? "justify-center" : ""}`}>
+                        <div className={`columns-2 ${isSmallDevice ? "ml-0 gap-20" : "ml-0"}`}>  
                             {recommendations && recommendations.map((recommendation, index) => (
                                 <Link to={`/details/${recommendation.Place_ID}`}> 
                                     <RekomendasiCard key={index} recommendation={recommendation.Place_Name} Place_ID={recommendation.Place_ID} />

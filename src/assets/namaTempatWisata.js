@@ -17,7 +17,7 @@ export const wisataData = [
     id: 1,
     nama: "Taman Pintar Yogyakarta",
     deskripsi:
-      "Taman Pintar Yogyakarta (bahasa Jawa: Hanacaraka,\u00ea\u00a6\u00a0\u00ea\u00a6\u00a9\u00ea\u00a6\u00a4\u00ea\u00a7\u20ac\u00e2\u20ac\u2039\u00ea\u00a6\u00a5\u00ea\u00a6\u00b6\u00ea\u00a6\u00a4\u00ea\u00a7\u20ac\u00ea\u00a6\u00a0\u00ea\u00a6\u201a\u00e2\u20ac\u2039\u00ea\u00a6\u201d\u00ea\u00a6\u00aa\u00ea\u00a6\u00ba\u00ea\u00a6\u00b4\u00ea\u00a6\u2019\u00ea\u00a6\u00be\u00ea\u00a6\u008f\u00ea\u00a6\u201a\u00ea\u00a6\u00a0, Taman Pintar Ngayogyakarta) adalah wahana wisata yang terdapat di pusat Kota Yogyakarta, tepatnya di Jalan Panembahan Senopati No. 1-3, Yogyakarta, di kawasan Benteng Vredeburg. Taman ini memadukan tempat wisata rekreasi maupun edukasi dalam satu lokasi. Taman Pintar memiliki arena bermain sekaligus sarana edukasi yang terbagi dalam beberapa zona. Akses langsung kepada pusat buku eks Shopping Centre juga menambah nilai lebih Taman Pintar. Tempat rekreasi ini sangat baik untuk anak-anak pada masa perkembangan.\\nBeberapa tahun ini Taman Pintar menjadi alternatif tempat berwisata bagi masyarakat Yogyakarta maupun luar kota.Taman ini, khususnya pada wahana pendidikan anak usia dini dilengkapi dengan teknologi interaktif digital serta pemetaan video yang akan memacu imajinasi anak serta ketertarikan mereka terhadap teknologi. Pada saat ini ada 35 zona dan 3.500 alat peraga permainan yang edukatif.",
+      "Taman Pintar Yogyakarta adalah destinasi wisata edukasi di pusat Kota Yogyakarta yang dirancang untuk meningkatkan minat belajar anak-anak dan remaja melalui cara yang menyenangkan dan interaktif. Tempat ini menawarkan berbagai zona tematik seperti Gedung Kotak, Gedung Oval, Planetarium, dan Teater 4D, yang menampilkan pameran dan aktivitas terkait sains, teknologi, budaya, dan sejarah. Selain wahana utama, Taman Pintar juga memiliki area bermain air, laboratorium komputer, perpustakaan, serta mengadakan workshop dan kegiatan edukatif seperti robotika dan seni. Dengan suasana edukatif yang menyenangkan, Taman Pintar Yogyakarta menjadi destinasi ideal untuk wisata keluarga dan edukasi.",
     jam: "08.30 - 16.00",
     harga: "6000",
     lokasi:
@@ -61,7 +61,7 @@ export const wisataData = [
     id: 2,
     nama: "Keraton Yogyakarta",
     deskripsi:
-      "Keraton Ngayogyakarta Hadiningrat atau Keraton Yogyakarta (bahasa Jawa: \u00ea\u00a6\u008f\u00ea\u00a6\u00ab\u00ea\u00a6\u00a0\u00ea\u00a6\u00ba\u00ea\u00a6\u00b4\u00ea\u00a6\u00a4\u00ea\u00a7\u20ac\u00e2\u20ac\u2039\u00ea\u00a6\u201d\u00ea\u00a6\u00aa\u00ea\u00a6\u00ba\u00ea\u00a6\u00b4\u00ea\u00a6\u2019\u00ea\u00a6\u00be\u00ea\u00a6\u008f\u00ea\u00a6\u201a\u00ea\u00a6\u00a0\u00e2\u20ac\u2039\u00ea\u00a6\u00b2\u00ea\u00a6\u00a2\u00ea\u00a6\u00b6\u00ea\u00a6\u00a4\u00ea\u00a6\u00b6\u00ea\u00a6\u201d\u00ea\u00a6\u00bf\u00ea\u00a6\u00a0\u00ea\u00a7\u20ac, translit. Karaton Ngayogyakarta Hadiningrat) merupakan istana resmi Kesultanan Ngayogyakarta Hadiningrat yang kini berlokasi di Kota Yogyakarta. Keraton ini didirikan oleh Sri Sultan Hamengkubuwana I pada tahun 1755 sebagai Istana/Keraton Yogyakarta yang baru berdiri akibat perpecahan Mataram Islam dengan adanya Perjanjian Giyanti. Keraton ini adalah pecahan dari Keraton Surakarta Hadiningrat dari Kesunanan Surakarta (Kerajaan Surakarta). Sehingga dinasti Mataram diteruskan oleh 2 Kerajaan yakni Kesultanan Yogyakarta dan Kesunanan Surakarta. Total luas wilayah keseluruhan keraton yogyakarta mencapai 184 hektar, yakni meliputi seluruh area di dalam benteng Baluwarti, alun-alun Lor, alun-alun Kidul, gapura Gladak, dan kompleks Masjid Gedhe Yogyakarta. Sementara luas dari kedhaton (inti keraton) mencapai 13 hektar. Walaupun Kesultanan Yogyakarta secara resmi telah menjadi bagian Republik Indonesia pada tahun 1945, kompleks bangunan keraton ini masih berfungsi sebagai tempat tinggal sultan dan rumah tangga istananya yang masih menjalankan tradisi kesultanan hingga saat ini. Keraton ini kini juga merupakan salah satu objek wisata di Kota Yogyakarta. Sebagian kompleks keraton merupakan museum yang menyimpan berbagai koleksi milik kesultanan, termasuk berbagai pemberian dari raja-raja Eropa, replika pusaka keraton, dan gamelan. Dari segi bangunannya, keraton ini merupakan salah satu contoh arsitektur istana Jawa yang terbaik, memiliki balairung-balairung mewah dan lapangan serta paviliun yang luas.",
+      "Keraton Yogyakarta, atau Keraton Ngayogyakarta Hadiningrat, adalah istana resmi Kesultanan Yogyakarta yang berdiri megah di pusat Kota Yogyakarta. Didirikan pada tahun 1755 oleh Sultan Hamengkubuwono I, keraton ini tidak hanya berfungsi sebagai tempat tinggal sultan dan keluarganya, tetapi juga sebagai pusat kebudayaan Jawa. Bangunan keraton yang megah dan penuh nilai sejarah ini mencerminkan arsitektur tradisional Jawa dengan sentuhan artistik yang mendetail. Di dalam kompleks keraton, pengunjung dapat menemukan berbagai paviliun, museum, dan artefak yang menggambarkan sejarah dan kebudayaan Yogyakarta. Keraton Yogyakarta juga menjadi lokasi berbagai upacara adat dan kegiatan budaya yang mempertahankan tradisi Jawa hingga kini, menjadikannya destinasi wisata yang memikat bagi mereka yang ingin mendalami kekayaan budaya dan sejarah Jawa.",
     jam: "08.30 - 14.30",
     harga: "15000",
     lokasi:
@@ -149,11 +149,11 @@ export const wisataData = [
   },
   {
     id: 4,
-    nama: "Museum Benteng Vredeburg",
+    nama: "Museum Benteng Vredeburg Yogyakarta",
     deskripsi:
-      "Museum Benteng Vredeburg (bahasa Jawa: \u00ea\u00a6\u00a9\u00ea\u00a6\u00b8\u00ea\u00a6\u00b1\u00ea\u00a6\u00b6\u00ea\u00a6\u00aa\u00ea\u00a6\u00b8\u00ea\u00a6\u00a9\u00ea\u00a7\u20ac\u00e2\u20ac\u2039\u00ea\u00a6\u00a7\u00ea\u00a6\u00ba\u00ea\u00a6\u00a0\u00ea\u00a6\u00ba\u00ea\u00a6\u0081\u00e2\u20ac\u2039\u00ea\u00a6\u00ae\u00ea\u00a6\u00b3\u00ea\u00a6\u00bd\u00ea\u00a6\u00a2\u00ea\u00a6\u00bc\u00ea\u00a6\u00a7\u00ea\u00a6\u00b8\u00ea\u00a6\u201a\u00ea\u00a6\u2019\u00ea\u00a7\u20ac, translit. Musiyum B\u00c3\u00a8t\u00c3\u00a8ng Vredeburg adalah sebuah benteng yang terletak di depan Gedung Agung dan Kraton Kesultanan Yogyakarta. Sekarang, benteng ini menjadi sebuah museum. Di sejumlah bangunan di dalam benteng ini terdapat diorama mengenai sejarah Indonesia.",
-    jam: "09.00 - 14.00",
-    harga: "3000",
+      "Benteng Vredeburg adalah sebuah bangunan benteng pertahanan yang terletak di depan Gedung Agung dan Kraton Kesultanan Yogyakarta1. Benteng ini sekarang menjadi sebuah museum yang menyimpan benda-benda bersejarah dan diorama mengenai sejarah Indonesia.Benteng ini dibangun sebagai pusat pemerintahan dan pertahanan residen Belanda kala itu, dengan dikelilingi oleh sebuah parit (jagang) yang sebagian bekas-bekasnya telah direkonstruksi dan dapat dilihat hingga sekarang. Benteng berbentuk persegi ini mempunyai bastion (menara pantau) di keempat sudutnya. Benteng Vredeburg berlokasi di Ngupasan, Gondomanan, Yogyakarta di Indonesia1. Harga Tiket Masuk Benteng Vredeburg yaitu Rp.5.000,-/orang dengan jam operasional setiap hari mulai pukul 09.00-17.00 WIB.Sejarah pendirian Benteng Vredeburg berkaitan erat dengan lahirnya Kasultanan Yogyakarta. Perjanjian Giyanti 13 Februari 1755 yang berhasil menyelesaikan perseteruan antara Susuhunan Pakubuwono III dengan Pangeran Mangkubumi (Sultan Hamengku Buwono I kelak) merupakan hasil politik Belanda yang selalu ingin ikut campur urusan dalam negeri raja-raja Jawa waktu itu. Benteng Vredeburg menjadi tujuan wisata budaya yang unik dan khas di Yogyakarta. Saat memasuki benteng ini akan terasa suasana jaman Belanda dengan arsitektur bergaya Eropa3. Benteng ini juga menjadi lokasi pelaksanaan Festival Kesenian Yogyakarta (FKY).",
+    jam: "09.00 -17.00",
+    harga: "5000",
     lokasi:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.9011157443915!2d110.36358927476611!3d-7.800292992219904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5788c0b3eecf%3A0xb9611ce0232a9ff8!2sMuseum%20Benteng%20Vredeburg!5e0!3m2!1sid!2sid!4v1715389100614!5m2!1sid!2sid",
     fasilitas: [
@@ -240,7 +240,7 @@ export const wisataData = [
     id: 6,
     nama: "Kampung Wisata Taman Sari",
     deskripsi:
-      'Taman Sari Yogyakarta atau Taman Sari Keraton Yogyakarta (Hanacaraka:\u00ea\u00a6\u00a0\u00ea\u00a6\u00a9\u00ea\u00a6\u00a4\u00ea\u00a7\u20ac\u00ea\u00a6\u00b1\u00ea\u00a6\u00ab\u00ea\u00a6\u00b6\u00ea\u00a6\u201d\u00ea\u00a6\u00aa\u00ea\u00a6\u00ba\u00ea\u00a6\u00b4\u00ea\u00a6\u2019\u00ea\u00a6\u00be\u00ea\u00a6\u008f\u00ea\u00a6\u201a\u00ea\u00a6\u00a1, Tamansari Ngayogyakarta) adalah situs bekas taman atau kebun istana Keraton Ngayogyakarta Hadiningrat, yang dapat dibandingkan dengan Kebun Raya Bogor sebagai kebun Istana Bogor. Kebun ini dibangun pada zaman Sultan Hamengku Buwono I (HB I) pada tahun 1758-1765/9. Awalnya, taman yang mendapat sebutan "The Fragrant Garden" ini memiliki luas lebih dari 10 hektare dengan sekitar 57 bangunan baik berupa gedung, kolam pemandian, jembatan gantung, kanal air, maupun danau buatan beserta pulau buatan dan lorong bawah air. Kebun yang digunakan secara efektif antara 1765-1812 ini pada mulanya membentang dari barat daya kompleks Kedhaton sampai tenggara kompleks Magangan. Namun saat ini, sisa-sisa bagian Taman Sari yang dapat dilihat hanyalah yang berada di barat daya kompleks Kedhaton saja.',
+      "Kampung Wisata Taman Sari adalah destinasi wisata yang terletak di Yogyakarta, dikenal dengan keindahan arsitektur dan sejarahnya yang kaya. Taman Sari, yang dulunya merupakan istana air bagi Sultan Yogyakarta, kini menjadi kompleks wisata yang menampilkan pemandian, taman, dan berbagai bangunan bersejarah dengan sentuhan arsitektur Jawa-Portugis. Pengunjung dapat menjelajahi lorong-lorong bawah tanah, kolam pemandian, dan menara pandang yang digunakan sultan untuk menikmati pemandangan sekitar. Selain itu, Kampung Wisata Taman Sari juga dikenal dengan kerajinan tangan lokalnya, seperti batik dan perak, yang dapat dibeli sebagai oleh-oleh. Suasana yang memadukan keindahan sejarah dan kebudayaan menjadikan Kampung Wisata Taman Sari tempat yang menarik untuk dikunjungi bagi wisatawan yang ingin merasakan nuansa masa lalu Yogyakarta.",
     jam: "09.00 - 15.00",
     harga: "5000",
     lokasi:
@@ -284,7 +284,7 @@ export const wisataData = [
     id: 7,
     nama: "Situs Warungboto",
     deskripsi:
-      "Situs Warungboto atau Pesanggrahan Rejawinangun adalah salah satu bangunan cagar budaya yang terletak di Jalan Veteran No.77, Kelurahan Warungboto, Kecamatan Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta. Pada awalnya, situs ini merupakan lokasi sebuah pesanggrahan dan pemandian.",
+      "Situs Warungboto, juga dikenal sebagai Pesanggrahan Rejawinangun, adalah situs bersejarah di Yogyakarta yang dulunya merupakan tempat peristirahatan keluarga kerajaan pada masa Kesultanan Yogyakarta. Dibangun pada era Sultan Hamengkubuwono I dan dilanjutkan oleh Sultan Hamengkubuwono II, situs ini menampilkan arsitektur khas Jawa dengan kolam pemandian, taman, dan bangunan yang dirancang untuk memberikan ketenangan dan kenyamanan. Warungboto menawarkan pemandangan indah dengan susunan batu bata yang artistik dan suasana yang tenang, menjadikannya tempat yang ideal untuk bersantai sambil menikmati keindahan sejarah. Meskipun tidak sebesar dan sepopuler Taman Sari, Warungboto memiliki daya tarik tersendiri dengan pesona arsitektur klasik dan nilai historis yang tinggi, menjadikannya destinasi menarik bagi pengunjung yang ingin menjelajahi warisan budaya Yogyakarta.",
     jam: "08.00 - 17.00",
     harga: "0",
     lokasi:
@@ -373,7 +373,7 @@ export const wisataData = [
     id: 9,
     nama: "Gembira Loka Zoo",
     deskripsi:
-      "Kebun Binatang Gembira Loka biasa disebut Gembira Loka Zoo (disingkat GL Zoo, bahasa Jawa: \u00ea\u00a6\u008f\u00ea\u00a6\u00bc\u00ea\u00a6\u00a7\u00ea\u00a6\u00ba\u00ea\u00a6\u00b4\u00ea\u00a6\u00a4\u00ea\u00a7\u20ac\u00e2\u20ac\u2039\u00ea\u00a6\u00ab\u00ea\u00a6\u2014\u00e2\u20ac\u2039\u00ea\u00a6\u2019\u00ea\u00a6\u00bc\u00ea\u00a6\u00a9\u00ea\u00a7\u20ac\u00ea\u00a6\u00a7\u00ea\u00a6\u00b6\u00ea\u00a6\u00ab\u00e2\u20ac\u2039\u00ea\u00a6\u00ad\u00ea\u00a6\u00ba\u00ea\u00a6\u00b4\u00ea\u00a6\u008f, translit. K\u00c3\u00aabon Raja G\u00c3\u00aambira Loka) adalah kebun binatang yang berada di Kota Yogyakarta. Berisi berbagai macam spesies dari belahan dunia, seperti orang utan, gajah asia, simpanse, harimau, dan lain sebagainya. Kebun Binatang Gembira Loka menjadi daya tarik tersendiri bagi para wisatawan Yogyakarta. Gembira Loka Zoo sempat rusak parah akibat gempa bumi Yogyakarta tahun 2006. Tetapi, setelah direnovasi Kebun Binatang Gembira Loka tetap dicari para wisatawan.",
+      "Gembira Loka adalah kebun binatang terbesar di Yogyakarta yang menawarkan pengalaman edukatif dan rekreasi bagi pengunjung dari segala usia. Terletak di kawasan yang asri, Gembira Loka menampung berbagai jenis satwa dari berbagai belahan dunia, termasuk mamalia, reptil, burung, dan ikan. Selain itu, kebun binatang ini dilengkapi dengan fasilitas rekreasi seperti taman bermain, danau buatan dengan perahu dayung, serta area piknik yang luas. Dengan berbagai program edukasi, termasuk pertunjukan hewan dan kegiatan interaktif, Gembira Loka berkomitmen untuk mendidik masyarakat tentang konservasi satwa dan lingkungan. Kombinasi antara hiburan dan edukasi menjadikan Gembira Loka destinasi favorit bagi keluarga dan wisatawan yang ingin menikmati keindahan alam sambil belajar tentang keanekaragaman hayati.",
     jam: "09.00 - 15.00",
     harga: "60000",
     lokasi:
@@ -417,7 +417,7 @@ export const wisataData = [
     id: 10,
     nama: "Sumur Gumuling",
     deskripsi:
-      "Sumur Gumuling adalah salah satu tempat untuk ibadah atau kegiatan agama pada masa lalu. Sumur Gumuling merupakan masjid pada zaman pemerintahan Sri Sultan Hamengkubuwana I dan II.",
+      "Sumur Gumuling adalah situs bersejarah yang terletak di dalam kompleks Taman Sari, Yogyakarta, dikenal sebagai salah satu bangunan bawah tanah yang paling menarik di kawasan tersebut. Dibangun pada abad ke-18 sebagai bagian dari istana air Kesultanan Yogyakarta, Sumur Gumuling berfungsi sebagai masjid bawah tanah yang unik. Struktur bangunan ini didesain dengan arsitektur melingkar dan memiliki sistem akustik yang memungkinkan suara imam dapat terdengar jelas di seluruh ruangan tanpa bantuan pengeras suara. Salah satu fitur paling ikonik dari Sumur Gumuling adalah tangga melingkar yang menuju ke lima jembatan bertingkat di tengah bangunan, menciptakan pemandangan yang sangat fotogenik dan penuh sejarah. Tempat ini tidak hanya menawarkan keindahan arsitektural, tetapi juga memberikan gambaran tentang kehidupan dan budaya Kesultanan Yogyakarta pada masa lampau, menjadikannya destinasi yang memikat bagi wisatawan dan pecinta sejarah.",
     jam: "09.00 - 15.00",
     harga: "7000",
     lokasi:
@@ -551,7 +551,7 @@ export const wisataData = [
     id: 13,
     nama: "Monumen Yogya Kembali",
     deskripsi:
-      "Museum Monumen Yogya Kembali (bahasa Jawa: \u00ea\u00a6\u00a9\u00ea\u00a6\u00ba\u00ea\u00a6\u00b4\u00ea\u00a6\u00a4\u00ea\u00a6\u00b8\u00ea\u00a6\u00a9\u00ea\u00a6\u00ba\u00ea\u00a6\u00a4\u00ea\u00a7\u20ac\u00e2\u20ac\u2039\u00ea\u00a6\u00aa\u00ea\u00a6\u00ba\u00ea\u00a6\u00b4\u00ea\u00a6\u2019\u00ea\u00a6\u00be\u00e2\u20ac\u2039\u00ea\u00a6\u008f\u00ea\u00a6\u00bc\u00ea\u00a6\u00a9\u00ea\u00a7\u20ac\u00ea\u00a6\u00a7\u00ea\u00a6\u00ad\u00ea\u00a6\u00b6, translit. Monum\u00c3\u00a8n Yogya Kembali) biasa dikenal sebagai Monumen Jogja Kembali disingkat Monjali adalah sebuah museum sejarah perjuangan kemerdekaan Indonesia yang ada di Daerah Istimewa Yogyakarta dan dikelola oleh Kementerian Pariwisata dan Ekonomi Kreatif. Museum yang berada di bagian utara kota ini banyak dikunjungi oleh para pelajar dalam acara darmawisata.\\n\\nMuseum monumen dengan bentuk kerucut ini terdiri dari 3 lantai dan dilengkapi dengan ruang perpustakaan serta ruang serbaguna. Pada rana pintu masuk dituliskan sejumlah 422 nama pahlawan yang gugur di daerah Wehrkreise III (RIS) antara tanggal 19 Desember 1948 sampai dengan 29 Juni 1949. Dalam 4 ruang museum di lantai 1 terdapat benda-benda koleksi: relief, replika, foto, dokumen, heraldika, berbagai jenis senjata, bentuk evokatif dapur umum dalam suasana perang kemerdekaan 1945-1949. Tandu dan dokar (kereta kuda) yang pernah dipergunakan oleh Panglima Besar Jenderal Soedirman juga disimpan di sini (di ruang museum nomor 2). Monumen Yogya Kembali beralamat di Jl. Ring Road Utara, Kabupaten Sleman, Daerah Istimewa Yogyakarta.",
+      "Monumen Jogja Kembali, yang lebih dikenal sebagai Monjali, adalah sebuah monumen bersejarah yang terletak di Yogyakarta, didirikan untuk mengenang perjuangan rakyat Indonesia dalam mempertahankan kemerdekaan dari penjajah Belanda. Dibuka pada tahun 1985, monumen ini berbentuk piramida dan terdiri dari tiga lantai yang menampilkan berbagai diorama, artefak, dan dokumentasi tentang peristiwa-peristiwa penting dalam sejarah perjuangan kemerdekaan, khususnya yang terjadi di Yogyakarta. Di dalamnya, pengunjung dapat menemukan replika peralatan perang, seragam militer, serta patung-patung yang menggambarkan momen heroik para pejuang. Selain itu, di puncak monumen terdapat ruangan untuk merenung dan mengenang jasa-jasa para pahlawan. Monjali tidak hanya menjadi tempat edukatif yang menyajikan informasi sejarah yang kaya, tetapi juga menjadi simbol kebanggaan dan semangat juang masyarakat Yogyakarta, menjadikannya destinasi wajib bagi mereka yang ingin memahami lebih dalam tentang perjuangan bangsa Indonesia.",
     jam: "08.00 - 16.00",
     harga: "15000",
     lokasi:
@@ -639,7 +639,7 @@ export const wisataData = [
     id: 15,
     nama: "Kampung Wisata Kadipaten",
     deskripsi:
-      "Kampung Wisata Kadipaten secaara kewilayahan berada di Kelurahan Kadipaten Kecamatan Kraton. Keberadaannya juga berfungsi sebagai penyangga obyek wisata Kraton Kasultanan Yogyakarta. Sesuai dengan potensi yang ada Kampung Wisata Kadipaten kemudian mengangkat tema \u00e2\u20ac\u0153Art and Heritage Turism\u00e2\u20ac\u009d sebagai brandinngnya. Kawasan kampung wisata ini menjadi sangat unik dan spesifik karena disana banyak terdapat bangunan situs cagar busaya terutama bangunan Dalem Pangeran. Nama Kadipaten sendiri konon berasal dari nama kawasan yang disana banyak terdapat bangunan situs cagar budaya terutama bangunan Dalem Pangeran. Nama Kadipaten konon berasal dari nama kawasan yang disana banyak ditinggali oleh kerabat Kraton yang sekaligus sebagai pengagung Kraton.",
+      "Kampung Wisata Kadipaten adalah sebuah destinasi budaya di Yogyakarta yang menawarkan pengalaman autentik kehidupan masyarakat lokal dengan latar belakang sejarah yang kaya. Terletak dekat dengan Keraton Yogyakarta, kampung ini memadukan pesona arsitektur tradisional Jawa dengan berbagai kegiatan budaya yang menarik. Pengunjung dapat menjelajahi gang-gang sempit yang dipenuhi rumah-rumah joglo, mengunjungi bengkel kerajinan batik dan perak, serta mengikuti workshop seni tradisional seperti tari, gamelan, dan membatik. Selain itu, Kampung Wisata Kadipaten juga sering menggelar pertunjukan seni dan upacara adat yang memberikan wawasan mendalam tentang tradisi dan kebiasaan lokal. Atmosfer kampung yang hangat dan ramah, ditambah dengan kesempatan untuk berinteraksi langsung dengan penduduk setempat, menjadikan Kampung Wisata Kadipaten destinasi yang memikat bagi wisatawan yang ingin merasakan keaslian budaya dan kehidupan sehari-hari masyarakat Yogyakarta.",
     jam: "08.00 - 15.00",
     harga: "0",
     lokasi:
@@ -683,7 +683,7 @@ export const wisataData = [
     id: 16,
     nama: "Taman Budaya Yogyakarta",
     deskripsi:
-      "Taman Budaya Yogyakarta (TBY) (Hanacaraka:\u00ea\u00a6\u00a0\u00ea\u00a6\u00a9\u00ea\u00a6\u00a4\u00ea\u00a7\u20ac\u00e2\u20ac\u2039\u00ea\u00a6\u00a7\u00ea\u00a6\u00b8\u00ea\u00a6\u00a2\u00ea\u00a6\u00aa\u00e2\u20ac\u2039\u00ea\u00a6\u201d\u00ea\u00a6\u00aa\u00ea\u00a6\u00ba\u00ea\u00a6\u00b4\u00ea\u00a6\u2019\u00ea\u00a6\u00be\u00ea\u00a6\u008f\u00ea\u00a6\u201a\u00ea\u00a6\u00a0, bahasa Jawa: Taman Budaya Ngayogyakarta) adalah sarana wisata yang terletak di Jalan Sri Wedani No 1, Yogyakarta. TBY memiliki kompleks gedung yang berfungsi sebagai tempat pameran, pertunjukan, dan berbagai kegiatan seni lainnya. TBY merupakan Unit Pelaksana Teknis Dinas (UPTD) pada Dinas Kebudayaan Provinsi Daerah Istimewa Yogyakarta. Fungsi dari TBY adalah sebagai pusat budaya termasuk di dalamnya pengembangan dan pengolahan pusat dokumentasi, etalase, dan informasi seni budaya dan pariwisata.\n",
+      "Taman Budaya Yogyakarta adalah pusat seni dan budaya yang berlokasi di jantung Kota Yogyakarta, menyediakan ruang bagi berbagai kegiatan seni dan budaya untuk berkembang. Tempat ini dilengkapi dengan berbagai fasilitas seperti teater, galeri seni, ruang pameran, dan aula serbaguna yang sering digunakan untuk pertunjukan seni tradisional dan kontemporer, pameran seni rupa, serta lokakarya dan diskusi budaya. Dengan tujuan untuk melestarikan dan mengembangkan kebudayaan lokal, Taman Budaya Yogyakarta secara rutin menggelar acara-acara seperti wayang kulit, tari tradisional, musik gamelan, serta pameran seni modern. Suasana yang dinamis dan kreatif menjadikan Taman Budaya Yogyakarta sebagai tempat berkumpulnya seniman, budayawan, dan penggemar seni dari berbagai kalangan, serta sebagai destinasi menarik bagi wisatawan yang ingin menikmati dan mempelajari kekayaan seni dan budaya Yogyakarta.",
     jam: "07.30 - 16.00",
     harga: "0",
     lokasi:
@@ -801,7 +801,13 @@ export const wisataData = [
       title: "Monumen Batik: Sejarah Batik di Titik Nol Kilometer Jogja ",
       link: "https://www.jogjasuper.co.id/monumen-batik/",
     },
-    foto: ["", "", "", "", ""],
+    foto: [
+      "https://www.jogjasuper.co.id/wp-content/uploads/2023/02/Monumen-Batik-jogja.jpg",
+      "https://www.shutterstock.com/image-photo/monumen-batik-yogyakarta-monument-inisible-260nw-1152708848.jpg",
+      "https://assets-a1.kompasiana.com/statics/crawl/555ddd230423bdbc778b4567.jpeg",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/cc/ec/94/yogyakarta-batik-museum.jpg?w=1200&h=-1&s=1",
+      "https://img2.beritasatu.com/cache/beritasatu/910x580-2/1414616219.jpg",
+    ],
     "detail lokasi":
       "Jl. KH. Ahmad Dahlan, Ngupasan, Kec. Gondomanan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55122",
   },
@@ -853,7 +859,7 @@ export const wisataData = [
     id: 20,
     nama: "Tebing Breksi",
     deskripsi:
-      "Tebing Breksi merupakan tempat wisata yang berada di wilayah Kabupaten Sleman. Lokasinya berada di sebelah selatan Candi Prambanan dan berdekatan dengan Candi Ijo serta Kompleks Keraton Boko. Lokasi Wisata Tebing Breksi tepatnya berada di Desa Sambirejo, Prambanan, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55572.",
+      "Tebing Breksi merupakan tempat wisata yang berada di wilayah Kabupaten Sleman. Lokasinya berada di sebelah kidul (selatan) Candi Prambanan dan berdekatan dengan Candi Ijo serta Kompleks Keraton Boko. Lokasi Wisata Tebing Breksi tepatnya berada di Desa Sambirejo, Kecamatan Prambanan, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55572. Taman wisata Tebing Breksi adalah tempat wisata alam di Jogja. Sesuai dengan namanya, tempat wisata ini merupakan perbukitan batuan Breksi. Tebing batuan breksi yang memiliki corak yang indah menjadi daya tarik tersendiri bagi wisatawan.Tebing Breksi ini sendiri tampak seperti lokasi tambang. Namun dengan berbagai ide dan tangan kreatif dari masyarakat sekitar, kini Tebing Breksi jauh lebih indah dengan berbagai pahatan yang menghiasi setiap dinding kapurnya. Pengunjung yang datang pun tidak perlu bersusah-susah memanjat dinding agar sampai di puncak tebing. Dengan memahat dinding kapur menjadi tangga, kini menjadi jauh lebih mudah untuk menuju puncak tebing.",
     jam: "06.00 - 21.00",
     harga: "20000",
     lokasi:
@@ -942,7 +948,7 @@ export const wisataData = [
     id: 22,
     nama: "Kawasan Malioboro",
     deskripsi:
-      "Jalan Malioboro adalah nama salah satu kawasan jalan dari tiga jalan di Kota Yogyakarta yang membentang dari Tugu Yogyakarta hingga ke perempatan Kantor Pos Yogyakarta. Secara keseluruhan terdiri dari Jalan Margo Utomo, Jalan Malioboro, dan Jalan Margo Mulyo. Jalan ini merupakan poros Garis Imajiner Kraton Yogyakarta.",
+      "Malioboro merupakan nama salah satu jalan di pusat Kota Yogyakarta. Jalan Malioboro itu sendiri merupakan salah satu jalan dari tiga jalan di Kota Yogyakarta yang membentang dari Tugu Yogyakarta hingga ke perempatan Kantor Pos Yogyakarta. Secara keseluruhan terdiri dari Jalan Pangeran Mangkubumi, Jalan Malioboro, dan Jalan Jend. A. Yani. Jalan Malioboro merupakan poros Garis Imajiner Kraton Yogyakarta.Asal nama Malioboro sendiri berasal dari bahasa sansekerta malyabhara yang berarti karangan bunga. Adapula beberapa ahli yang berpendapat asal kata nama Malioboro berasal dari nama seorang kolonial Inggris yang bernama Marlborough yang pernah tinggal di Jogja pada tahun 1811- 1816 M.",
     jam: "00.00 - 23.59",
     harga: "0",
     lokasi:
@@ -1076,7 +1082,7 @@ export const wisataData = [
     id: 25,
     nama: "Hutan Pinus Pengger",
     deskripsi:
-      "Hutan Pinus Pengger (bahasa Jawa: \u00ea\u00a6\u201e\u00ea\u00a6\u00ad\u00ea\u00a6\u00b1\u00ea\u00a7\u20ac\u00e2\u20ac\u2039\u00ea\u00a6\u00a5\u00ea\u00a6\u00b6\u00ea\u00a6\u00a4\u00ea\u00a6\u00b8\u00ea\u00a6\u00b1\u00ea\u00a7\u20ac\u00e2\u20ac\u2039\u00ea\u00a6\u00a5\u00ea\u00a6\u00bc\u00ea\u00a6\u0081\u00e2\u20ac\u2039\u00ea\u00a6\u2019\u00ea\u00a6\u00bc\u00ea\u00a6\u201a\u00e2\u20ac\u2039, translit. Alas Pinus\u00e2\u20ac\u2039 P\u00c4\u203angg\u00c4\u203ar) merupakan salah satu objek wisata andalan Kabupaten Bantul. Wisata alam ini berlokasi di Sendangsari, Desa Terong, Kec. Dlingo, Kabupaten Bantul, Daerah Istimewa Yogyakarta.\\nHutan Pinus Pengger mudah dijangkau karena terletak dipinggir jalan Patuk-Dlingo km 4,5.\\nWalaupun masih terdengar asing, dikalangan penyuka jalan-jalan objek wisata, Hutan Pinus Pengger terbilang cukup populer . Tempat ini masih dirasa asing karena baru dibuka secara resmi pada tanggal 7 April 2016. Hutan Pinus ini sangat digemari oleh para pencipta objek wisata, karena objek wisata ini menyuguhkan pemandangan alam yang sangat indah.",
+      " Saat mengunjungi Hutan Pinus Pengger, Anda bisa melakukan beberapa aktivitas alam yang menyenangkan. Salah satunya adalah melihat keindahan alam Jogja dari ketinggian. Jika Anda ingin melihat pemandangan Jogja pada malam hari dan pagi hari, Anda bisa camping disini dengan harga tiket masuk yang murah. Dengan keasrian hutan dan hawa dingin yang semilir menjadikan suasana camping mu menjadi lebih menyenangkan.Selain itu, Anda juga bisa memilih beberapa spot selfie yang sudah disediakan. Diantaranya ada spot foto sarang burung, rumah pohon, tangga cinta, dan jembatan pohon. Ada satu spot foto yang paling diminati pengunjung terutama pada malam hari yaitu spot sarang burung raksasa yang apabila difoto pada malam hari akan terlihat kerlap kerlip pemandangan lampu kota Jogja.",
     jam: "08.00 - 21.00",
     harga: "3000",
     lokasi:
@@ -1252,7 +1258,7 @@ export const wisataData = [
     id: 29,
     nama: "Gedung Agung Yogyakarta",
     deskripsi:
-      "Istana Yogyakarta yang dikenal dengan nama Gedung Agung (bahasa Jawa: \u00ea\u00a6\u2019\u00ea\u00a6\u00bc\u00ea\u00a6\u009d\u00ea\u00a6\u00ba\u00ea\u00a6\u00b4\u00ea\u00a6\u0081\u00e2\u20ac\u2039\u00ea\u00a6\u201e\u00ea\u00a6\u2019\u00ea\u00a6\u00bc\u00ea\u00a6\u0081, translit. Gedhong Ageng) terletak di pusat keramaian kota, tepatnya di ujung selatan Jalan Ahmad Yani dahulu dikenal dengan Jalan Margomulyo. Kawasan istana terletak di Kelurahan Ngupasan, Kecamatan Gondomanan, Kota Yogyakarta, dan berada pada ketinggian 120 m dari permukaan laut. Kompleks istana ini menempati lahan seluas 43.585 m\u00c2\u00b2.",
+      "Mengutip dari situs resmi Kementerian Sekretariat Negara (Setneg) RI, sejarah Gedung Agung atau Istana Kepresidenan Yogyakarta bermula dari rumah kediaman resmi seorang Residen (Gubernur) ke-18 di Yogyakarta (1823-1825). Dia seorang Belanda bernama Anthonie Hendriks Smissaert, yang sekaligus merupakan penggagas pembangunan Gedung Agung ini.Gedung Agung Yogyakarta itu didirikan pada bulan Mei 1824 di masa penjajahan Belanda, dengan arsiteknya bernama A Payen. Dia ditunjuk oleh Gubernur Jenderal Hindia Belanda untuk membangun gedung dengan gaya bangunan mengikuti arsitektur Eropa yang disesuaikan pada iklim tropis.",
     jam: "08.00 - 15.00",
     harga: "0",
     lokasi:
@@ -1429,7 +1435,7 @@ export const wisataData = [
     id: 33,
     nama: "The World Landmarks - Merapi Park Yogyakarta",
     deskripsi:
-      "Merapi Park merupakan salah satu tempat wisata di Yogyakarta yang terletak di Jalan Kaliurang km 22, Hargobinangun, Kecamatan Pakem, Kabupaten Sleman. Pengoperasian Merapi Park dimulai sejak tanggal 25 Juni 2017. Fasilitas yang tersedia meliputi tempat pengambilan foto",
+      "The World Landmark Merapi Park dikenal juga sebagai Merapi Park merupakan tempat wisata yang menyuguhkan miniatur landmark dari berbagai belahan dunia. Tempat wisata hits ini pertama kali dibuka pertengahan 2017. Lokasinya ada di di Jalan Kaliurang kilometer 22,5, Hargobinangun, Kecamatan Pakem, Kabupaten Sleman, Yogyakarta. The World Landmark Merapi Park sangat cocok untuk para milenial dan keluarga dengan spot-spot foto yang menarik dan keren, sehingga sering diburu untuk mengambil foto yang instagramable.Menjadi tempat wisata yang hits, Merapi Park menyediakan beberapa fasilitas untuk menunjang kenyamanan pengunjung, seperti toilet, mushola, area parkir, gazebo, taman bunga, bangku taman, restoran dan kafe, serta penginapan, sampai akses wifi. Dengan fasilitas yang tergolong lengkap, pengunjung dapat bersantai, menikmati pemandangan bunga yang berwarna, sambil menikmati makanan yang tersedia di restoran dan kafe, bahkan mendapat koneksi internet gratis. Kelebihan fasilitas di Merapi Park, pengelola juga menyediakan kursi roda bila ada yang membutuhkan.",
     jam: "09.00 - 16.00",
     harga: "22000",
     lokasi:
@@ -1605,7 +1611,7 @@ export const wisataData = [
     id: 37,
     nama: "Candi Prambanan",
     deskripsi:
-      "Candi Prambanan atau Candi Roro Jonggrang (bahasa Jawa: \u00ea\u00a6\u2022\u00ea\u00a6\u00a4\u00ea\u00a7\u20ac\u00ea\u00a6\u009d\u00ea\u00a6\u00b6\u00e2\u20ac\u2039\u00ea\u00a6\u00a5\u00ea\u00a6\u00bf\u00ea\u00a6\u00a9\u00ea\u00a7\u20ac\u00ea\u00a6\u00a7\u00ea\u00a6\u00a4\u00ea\u00a6\u00a4\u00ea\u00a7\u20ac, translit. Candhi Prambanan) adalah kompleks candi Hindu terbesar di Indonesia yang dibangun pada abad ke-9 masehi. Candi ini dipersembahkan untuk Trimurti, tiga dewa utama Hindu yaitu Brahma sebagai dewa pencipta, Wisnu sebagai dewa pemelihara, dan Siwa sebagai dewa pemusnah. Berdasarkan prasasti Siwagrha nama asli kompleks candi ini adalah Siwagrha (bahasa Sanskerta yang bermakna 'Rumah Siwa'), dan memang di garbagriha (ruang utama) candi ini bersemayam arca Siwa Mahadewa setinggi tiga meter yang menujukkan bahwa di candi ini dewa Siwa lebih diutamakan.\\nKompleks percandian Candi Prambanan secara keseluruhan berada di wilayah provinsi Daerah Istimewa Yogyakarta, namun pintu administrasinya berada di Daerah Istimewa Surakarta (sekarang bagian Provinsi Jawa Tengah), hal ini yang membuat Candi Prambanan terletak di 2 tempat yakni di Desa Bokoharjo, Kecamatan Prambanan, Kabupaten Sleman, dan di Desa Tlogo, Kecamatan Prambanan, Kabupaten Klaten, atau kurang lebih 17 kilometer timur laut Yogyakarta, 50 kilometer barat daya Surakarta dan 120 kilometer selatan Semarang, persis di perbatasan antara Daerah Istimewa Yogyakarta dan Daerah Istimewa Surakarta.Candi ini adalah termasuk Situs Warisan Dunia UNESCO, candi Hindu terbesar di Indonesia, sekaligus salah satu candi terindah di Asia Tenggara. Arsitektur bangunan ini berbentuk tinggi dan ramping sesuai dengan arsitektur Hindu pada umumnya dengan candi Siwa sebagai candi utama memiliki ketinggian mencapai 47 meter menjulang di tengah kompleks gugusan candi-candi yang lebih kecil. Sebagai salah satu candi termegah di Asia Tenggara, candi Prambanan menjadi daya tarik kunjungan wisatawan dari seluruh dunia.Menurut prasasti Siwagrha, candi ini mulai dibangun pada sekitar tahun 850 masehi oleh Rakai Pikatan, dan terus dikembangkan dan diperluas oleh Balitung Maha Sambu, pada masa kerajaan Medang Mataram.",
+      "Candi Prambanan atau Candi Roro Jonggrang adalah kompleks candi Hindu terbesar di Indonesia yang dibangun pada abad ke-9 masehi. Candi ini dipersembahkan untuk Trimurti, tiga dewa utama Hindu yaitu Brahma sebagai dewa pencipta, Wisnu sebagai dewa pemelihara, dan Siwa sebagai dewa pemusnah. Berdasarkan prasasti Siwagrha nama asli kompleks candi ini adalah Siwagrha (bahasa Sanskerta yang bermakna 'Rumah Siwa'), dan memang di garbagriha (ruang utama) candi ini bersemayam arca Siwa Mahadewa setinggi tiga meter yang menujukkan bahwa di candi ini dewa Siwa lebih diutamakan.\\nKompleks percandian Candi Prambanan secara keseluruhan berada di wilayah provinsi Daerah Istimewa Yogyakarta, namun pintu administrasinya berada di Daerah Istimewa Surakarta (sekarang bagian Provinsi Jawa Tengah), hal ini yang membuat Candi Prambanan terletak di 2 tempat yakni di Desa Bokoharjo, Kecamatan Prambanan, Kabupaten Sleman, dan di Desa Tlogo, Kecamatan Prambanan, Kabupaten Klaten, atau kurang lebih 17 kilometer timur laut Yogyakarta, 50 kilometer barat daya Surakarta dan 120 kilometer selatan Semarang, persis di perbatasan antara Daerah Istimewa Yogyakarta dan Daerah Istimewa Surakarta.Candi ini adalah termasuk Situs Warisan Dunia UNESCO, candi Hindu terbesar di Indonesia, sekaligus salah satu candi terindah di Asia Tenggara. Arsitektur bangunan ini berbentuk tinggi dan ramping sesuai dengan arsitektur Hindu pada umumnya dengan candi Siwa sebagai candi utama memiliki ketinggian mencapai 47 meter menjulang di tengah kompleks gugusan candi-candi yang lebih kecil. Sebagai salah satu candi termegah di Asia Tenggara, candi Prambanan menjadi daya tarik kunjungan wisatawan dari seluruh dunia.Menurut prasasti Siwagrha, candi ini mulai dibangun pada sekitar tahun 850 masehi oleh Rakai Pikatan, dan terus dikembangkan dan diperluas oleh Balitung Maha Sambu, pada masa kerajaan Medang Mataram.",
     jam: "06.30 - 17.00",
     harga: "50000",
     lokasi:
@@ -1825,7 +1831,7 @@ export const wisataData = [
     id: 42,
     nama: "Pantai Goa Cemara",
     deskripsi:
-      "Pantai Goa Cemara (bahasa Jawa: \u00ea\u00a6\u00a5\u00ea\u00a6\u00b1\u00ea\u00a6\u00b6\u00ea\u00a6\u00b1\u00ea\u00a6\u00b6\u00ea\u00a6\u201a\u00e2\u20ac\u2039 \u00ea\u00a6\u2019\u00ea\u00a6\u00b8\u00ea\u00a6\u00ae\u00e2\u20ac\u2039 \u00ea\u00a6\u2022\u00ea\u00a6\u00ba\u00ea\u00a6\u00a9\u00ea\u00a6\u00ab, translit. Pasisir Guwa Cemara\u00e2\u20ac\u2039) adalah objek wisata pantai yang terletak di Dusun Patihan, Desa Gadingsari, Kecamatan Sanden, Kabupaten Bantul. Daerah Istimewa Yogyakarta. Pantai ini terletak tepatnya berdampingan dengan Pantai Samas dan Pantai Pandansari.\\n\\nPantai ini memiliki pasir berwarna hitam tapi lembut dengan ombak yang cukup besar kerakteristik pantai selatan. Pantai ini merupakan pantai pengembangan baru dimana terdapat banyak pohong Cemara udang rindang membentuk seperti goa, hal ini yang membuat pantai ini dinamai Goa Cemara. Pohon Cemara ini bertujuan untuk melindungi abrasi air laut dan menahan gumuk pasir supaya tidak mengalamai perpindahan akibat tiupan angin.",
+      "Gua Cemara berlokasi di barat Pantai Pandansari sejajar dengan Pantai Samas dan Pantai Kwaru. Lokasi pantai tumbuhi cemara udang yang tajuknya membentuk atap seperti goa. Goa Cemara diambil dari Goa yang terbentuk dari rimbunan pohon cemara udang yang tertanam rapi di sepanjang pinggir pantai kawasan Dusun Patehan Gadingsari Bantul Yogyakarta.Menurut warga setempat, terdapat sekitar 6000 lebih pohon cemara udang yang memenuhi lahan seluas 20 hektar di pinggir pantai. Jarak yang dekat dahan saling berhimpitan satu dan lain membuat pemandangan semakin unik dan enggan untuk meninggalkan tempat karena kesejukan semilir angin dari arah pantai.Hutan Cemara Udang ini awalnya dibuat oleh Kelompok Tani Raharjo Dusun Patehan. Fungsinya antara lain untuk memanfaatkan lahan kosong di kawasan pantai sekaligus sebagai pemecah angin atau win barrie untuk mencegah pengikisan Gosong (gumuk pasir ). Dampak positif lain yaitu dapat menjadi Kawasan objek wisata yang memiliki pesona indah.",
     jam: "00.00 - 23.59",
     harga: "4000",
     lokasi:
@@ -1913,7 +1919,7 @@ export const wisataData = [
     id: 44,
     nama: "Gumuk Pasir Parangkusumo",
     deskripsi:
-      'Gumuk Pasir Parangkusumo (bahasa Jawa: \u00ea\u00a6\u2019\u00ea\u00a6\u00b8\u00ea\u00a6\u00a9\u00ea\u00a6\u00b8\u00ea\u00a6\u008f\u00ea\u00a7\u20ac\u00e2\u20ac\u2039\u00ea\u00a6\u00a5\u00ea\u00a6\u00b1\u00ea\u00a6\u00b6\u00ea\u00a6\u201a\u00e2\u20ac\u2039\u00ea\u00a6\u00a5\u00ea\u00a6\u00ab\u00ea\u00a6\u0081\u00e2\u20ac\u2039\u00ea\u00a6\u008f\u00ea\u00a6\u00b8\u00ea\u00a6\u00b1\u00ea\u00a6\u00b8\u00ea\u00a6\u00a9, translit. Gumuk Pasir Parangkusuma) adalah objek wisata di Kabupaten Bantul, Yogyakarta, letaknya di sebelah barat Pantai Parangtritis, yaitu di Desa Parangtritis, Kecamatan Kretek, Kabupaten Bantul, Daerah Istimewa Yogyakarta. Gumuk Pasir ini memiliki sejumlah keistimewaan terkait dengan jumlahnya hanya terbatas di dunia.\\nNama "Gumuk" berasal dari bahasa Jawa yang artinya gundukan-gundukan pasir yang terhampar luas. Gumuk Pasir Yogyakarta terbentuk dari material Gunung Merapi yang kemudian mengalami transportasi melalui Sungai Opak dan Sungai Progo yang kemudian terbawa ombak dan mengendap di pantai. Material yang mengendap kemudian mengering dan terbawa angin lalu terbang kedaratan sehingga mengalami proses deposisi menjadi Gumuk Pasir.',
+      "Gumuk Pasir Parangkusumo adalah objek wisata alami di Kabupaten Bantul, DI Yogyakarta. Letaknya di sebelah barat Pantai Parangtritis, yaitu di Kalurahan Parangtritis, Kapanéwon Kretek, Kabupaten Bantul, Daerah Istimewa Yogyakarta. Gumuk Pasir ini memiliki sejumlah keistimewaan terkait dengan jumlahnya hanya terbatas di dunia.Nama gumuk berasal dari bahasa Jawa yang artinya gundukan-gundukan pasir yang terhampar luas. Gumuk Pasir Yogyakarta terbentuk dari material Gunung Merapi yang kemudian mengalami transportasi melalui Sungai Opak dan Sungai Progo yang kemudian terbawa ombak dan mengendap di pantai. Material yang mengendap kemudian mengering dan terbawa angin lalu terbang kedaratan sehingga mengalami proses deposisi menjadi Gumuk Pasir.",
     jam: "07.00 - 18.00",
     harga: "0",
     lokasi:
@@ -2354,7 +2360,7 @@ export const wisataData = [
     id: 54,
     nama: "Jogja Exotarium",
     deskripsi:
-      "Di Yogyakarta, tepatnya di Sleman, ada satu tempat wisata edukasi yang patut dikunjungi. Namanya adalah Jogja Exotarium \u00e2\u20ac\u201d terdengar unik, kan? Namun sebenarnya, tempat ini merupakan taman hewan berskala kecil. Koleksi hewannya beragam dan bisa diajak berinteraksi secara langsung",
+      "Mini Zoo Jogja Exotarium merupakan salah satu destinasi wisata yang dapat dikunjungi untuk berlibur bersama keluarga. Tempat wisata ini dapat menjadi wisata edukasi untuk mengenal lebih banyak tentang satwa.Jogja Exotarium adalah mini zoo atau kebun binatang mini yang memiliki berbagai koleksi satwa tetapi tidak sebanyak dengan kebun binatang lain. Tempat ini bertujuan untuk mengembangbiakkan satwa, terutama satwa yang terancam punah.Banyak sekali aktivitas outdoor menyenangkan yang bisa dicoba di sini. Pengunjung dapat mencoba wahana flying fox, perosotan pelangi, becak mini, jeep, berkuda, tubing, ATV, bebek kayuh, terapi ikan, tangkap ikan, dan kolam renang.Selain itu, tempat ini juga menyediakan fasilitas tanaman hias, taman bunga, outbond, dan juga wedding venue. Terdapat banyak spot foto sehingga pengunjung dapat bebas berfoto di spot yang disukai.",
     jam: "08.00 - 17.00",
     harga: "20000",
     lokasi:
@@ -2843,7 +2849,7 @@ export const wisataData = [
     id: 65,
     nama: "Goa Cerme",
     deskripsi:
-      "Gua Cerme (bahasa Jawa: \u00ea\u00a6\u2019\u00ea\u00a6\u00b8\u00ea\u00a6\u00ae\u00e2\u20ac\u2039\u00ea\u00a6\u2022\u00ea\u00a6\u00ba\u00ea\u00a6\u201a\u00ea\u00a6\u00a9\u00ea\u00a6\u00ba, translit. Gua Cerme) adalah gua bersejarah dan sekaligus tempat wisata yang terletak di Dusun Srunggo, Desa Selopamioro, Kecamatan Imogiri, Kabupaten Bantul atau sekitar 20 km selatan Kota Yogyakarta. Gua Cerme memiliki panjang 1,5 km yang tembus hingga sendang di wilayah Panggang, yaitu di Dusun Ploso, Desa Giritirto, Kecamatan Purwosari, Kabupaten Gunungkidul.\\nDi samping gua Cerme, di sekitarnya terdapat gua lain yang lebih kecil seperti Goa Dalang, Goa Ledek, Goa Badut dan Goa Kaum yang sering digunakan untuk bersemedi. Untuk mencapai gua, terdapat tangga setinggi 759 m. Kata cerme berasal dari kata ceramah yang mengisyaratkan pembicaraan yang dilakukan walisongo. Gua Cerme dulunya digunakan oleh para Walisongo untuk menyebarkan agama Islam di Jawa. Selain itu, Gua Cerme juga digunakan untuk membahas rencana pendirian Masjid Agung Demak. Setiap Senin atau Selasa wage, selalu diadakan upacara syukuran untuk meminta berkah kepada Tuhan.",
+      "Gua Cerme adalah gua bersejarah dan sekaligus tempat wisata yang terletak di Dusun Srunggo, Desa Selopamioro, Kecamatan Imogiri, Kabupaten Bantul atau sekitar 20 km selatan Kota Yogyakarta. Gua Cerme memiliki panjang 1,5 km yang tembus hingga sendang di wilayah Panggang, yaitu di Dusun Ploso, Desa Giritirto, Kecamatan Purwosari, Kabupaten Gunungkidul.\\nDi samping gua Cerme, di sekitarnya terdapat gua lain yang lebih kecil seperti Goa Dalang, Goa Ledek, Goa Badut dan Goa Kaum yang sering digunakan untuk bersemedi. Untuk mencapai gua, terdapat tangga setinggi 759 m. Kata cerme berasal dari kata ceramah yang mengisyaratkan pembicaraan yang dilakukan walisongo. Gua Cerme dulunya digunakan oleh para Walisongo untuk menyebarkan agama Islam di Jawa. Selain itu, Gua Cerme juga digunakan untuk membahas rencana pendirian Masjid Agung Demak. Setiap Senin atau Selasa wage, selalu diadakan upacara syukuran untuk meminta berkah kepada Tuhan.",
     jam: "07.00 - 18.00",
     harga: "3000",
     lokasi:
@@ -2975,7 +2981,7 @@ export const wisataData = [
     id: 68,
     nama: "Pantai Patihan",
     deskripsi:
-      "Pantai ini terletak di daerah Srigading, Sanden dan cukup dekat dengan Pantai Goa Cemara. Tempatnya juga asyik banget buat foto-foto, nggak beda jauh dengan Pandasari.",
+      "Bantul terletak di selatan kota Yogyakarta, tak banyak orang tahu bahwa di daerah sini memiliki tempat-tempat tersembunyi yang begitu indah dan menawan. Tidak salah lagi kalau disebut dengan surga dunia di wilayah Bantul. pantai Patihan yang berjarak kurang lebih satu kilo meter dari pantai Pandansari memiliki pemandangan yang tak kalah menakjubkan. Perjalanan menuju pantai ini akan disuguhkan pemandangan perkebunan berbagai macam tumbuhan seperti buah naga dan lain-lain. Jika beruntung kalian akan melihat burung kuntul berterbangan melintas di atas kepala. Saat memasuki jalan utama pantai ini dibagian kanan kirinya terdapat pohon cemara membentuk lorong panjang menuju pantai. View pantai Patihan hampir sama dengan pantai Pandansari, akan tetapi di pantai Patihan ini memiliki pesisir pantai yang lebih luas dan view pepohonan yang lebih hijau dan rindang.",
     jam: "00.00 - 23.59",
     harga: "5000",
     lokasi:
@@ -3139,7 +3145,7 @@ export const wisataData = [
     id: 72,
     nama: "Pantai Pulang Sawal",
     deskripsi:
-      "Pantai Pulang Sawal yang ada di Kecamatan Tepus bisa dicoba. Wisatawan lebih akrab dengan nama Indrayanti untuk merujuk pantai ini. Tidak hanya pengunjung lokal, wisatawan mancanegara pun terpikat dengan pesonanya.",
+      "Pantai Pulang Sawal yang ada di Kecamatan Tepus bisa dicoba. Wisatawan lebih akrab dengan nama Indrayanti untuk merujuk pantai ini. Tidak hanya pengunjung lokal, wisatawan mancanegara pun terpikat dengan pesonanya.Pantai Pulang Sawal di Gunungkidul menyajikan beragam pemandangan eksotis berupa hamparan pasir putih yang luas dan birunya air laut yang memesona. Keindahan alam dan pesona yang tersaji pantai ini membuatnya menjadi salah satu tempat wisata yang banyak di kunjungi wisatawan. Pantai yang juga disebut Indrayanti ini memiliki bukit dan karang indah yang menjadi salah satu daya tariknya. Buat kamu yang tertarik datang dan berlibur, Pantai Pulang Sawal menjadi salah satu tempat yang bisa kamu pilih",
     jam: "00.00 - 23.59",
     harga: "10000",
     lokasi:
@@ -3744,7 +3750,7 @@ export const wisataData = [
     id: 86,
     nama: "Candi Borobudur",
     deskripsi:
-      "Borobudur (bahasa Jawa: \u00ea\u00a6\u2022\u00ea\u00a6\u00a4\u00ea\u00a7\u20ac\u00ea\u00a6\u009d\u00ea\u00a6\u00b6\u00e2\u20ac\u2039\u00ea\u00a6\u00a7\u00ea\u00a6\u00ab\u00ea\u00a6\u00a7\u00ea\u00a6\u00b8\u00ea\u00a6\u009d\u00ea\u00a6\u00b8\u00ea\u00a6\u201a, translit. Candhi Barabudhur) adalah sebuah candi Buddha yang terletak di Borobudur, Magelang, Jawa Tengah, Indonesia. Candi ini terletak kurang lebih 100 km di sebelah barat daya Semarang, 86 km di sebelah barat Surakarta, dan 40 km di sebelah barat laut Yogyakarta. Candi berbentuk stupa ini didirikan oleh para penganut agama Buddha Mahayana sekitar tahun 800-an Masehi pada masa pemerintahan wangsa Syailendra. Borobudur adalah candi atau kuil Buddha terbesar di dunia, sekaligus salah satu monumen Buddha terbesar di dunia.\\nMonumen ini terdiri atas enam teras berbentuk bujur sangkar yang di atasnya terdapat tiga pelataran melingkar, pada dindingnya dihiasi dengan 2.672 panel relief dan aslinya terdapat 504 arca Buddha. Borobudur memiliki koleksi relief Buddha terlengkap dan terbanyak di dunia. Stupa utama terbesar teletak di tengah sekaligus memahkotai bangunan ini, dikelilingi oleh tiga barisan melingkar 72 stupa berlubang yang di dalamnya terdapat arca Buddha tengah duduk bersila dalam posisi teratai sempurna dengan mudra (sikap tangan) Dharmachakra mudra (memutar roda dharma).\\nMonumen ini merupakan model alam semesta dan dibangun sebagai tempat suci untuk memuliakan Buddha sekaligus berfungsi sebagai tempat ziarah untuk menuntun umat manusia beralih dari alam nafsu duniawi menuju pencerahan dan kebijaksanaan sesuai ajaran Buddha. Para peziarah masuk melalui sisi timur dan memulai ritual di dasar candi dengan berjalan melingkari bangunan suci ini searah jarum jam, sambil terus naik ke undakan berikutnya melalui tiga tingkatan ranah dalam kosmologi Buddha. Ketiga tingkatan itu adalah K\u00c4\u0081madh\u00c4\u0081tu (ranah hawa nafsu), Rupadhatu (ranah berwujud), dan Arupadhatu (ranah tak berwujud). Dalam perjalanannya para peziarah berjalan melalui serangkaian lorong dan tangga dengan menyaksikan tak kurang dari 1.460 panel relief indah yang terukir pada dinding dan pagar langkan.\\nMenurut bukti-bukti sejarah, Borobudur ditinggalkan pada abad ke-14 seiring melemahnya pengaruh kerajaan Hindu dan Buddha di Jawa serta mulai masuknya pengaruh Islam. Dunia mulai menyadari keberadaan bangunan ini sejak ditemukan 1814 oleh Sir Thomas Stamford Raffles, yang saat itu menjabat sebagai Gubernur Jenderal Inggris atas Jawa. Sejak saat itu Borobudur telah mengalami serangkaian upaya penyelamatan dan pemugaran (perbaikan kembali). Proyek pemugaran terbesar digelar pada kurun waktu 1975 hingga 1982 atas upaya Pemerintah Republik Indonesia dan UNESCO, kemudian situs bersejarah ini masuk dalam daftar Situs Warisan Dunia.Borobudur kini masih digunakan sebagai tempat ziarah keagamaan; tiap tahun umat Buddha yang datang dari seluruh Indonesia dan mancanegara berkumpul di Borobudur untuk memperingati Trisuci Waisak. Dalam dunia pariwisata, Borobudur adalah objek wisata tunggal di Indonesia yang paling banyak dikunjungi wisatawan.",
+      "Borobudur adalah sebuah candi Buddha yang terletak di Borobudur, Magelang, Jawa Tengah, Indonesia. Candi ini terletak kurang lebih 100 km di sebelah barat daya Semarang, 86 km di sebelah barat Surakarta, dan 40 km di sebelah barat laut Yogyakarta. Candi berbentuk stupa ini didirikan oleh para penganut agama Buddha Mahayana sekitar tahun 800-an Masehi pada masa pemerintahan wangsa Syailendra. Borobudur adalah candi atau kuil Buddha terbesar di dunia, sekaligus salah satu monumen Buddha terbesar di dunia.\\nMonumen ini terdiri atas enam teras berbentuk bujur sangkar yang di atasnya terdapat tiga pelataran melingkar, pada dindingnya dihiasi dengan 2.672 panel relief dan aslinya terdapat 504 arca Buddha. Borobudur memiliki koleksi relief Buddha terlengkap dan terbanyak di dunia. Stupa utama terbesar teletak di tengah sekaligus memahkotai bangunan ini, dikelilingi oleh tiga barisan melingkar 72 stupa berlubang yang di dalamnya terdapat arca Buddha tengah duduk bersila dalam posisi teratai sempurna dengan mudra (sikap tangan) Dharmachakra mudra (memutar roda dharma).\\nMonumen ini merupakan model alam semesta dan dibangun sebagai tempat suci untuk memuliakan Buddha sekaligus berfungsi sebagai tempat ziarah untuk menuntun umat manusia beralih dari alam nafsu duniawi menuju pencerahan dan kebijaksanaan sesuai ajaran Buddha. Para peziarah masuk melalui sisi timur dan memulai ritual di dasar candi dengan berjalan melingkari bangunan suci ini searah jarum jam, sambil terus naik ke undakan berikutnya melalui tiga tingkatan ranah dalam kosmologi Buddha. Ketiga tingkatan itu adalah K\u00c4\u0081madh\u00c4\u0081tu (ranah hawa nafsu), Rupadhatu (ranah berwujud), dan Arupadhatu (ranah tak berwujud). Dalam perjalanannya para peziarah berjalan melalui serangkaian lorong dan tangga dengan menyaksikan tak kurang dari 1.460 panel relief indah yang terukir pada dinding dan pagar langkan.\\nMenurut bukti-bukti sejarah, Borobudur ditinggalkan pada abad ke-14 seiring melemahnya pengaruh kerajaan Hindu dan Buddha di Jawa serta mulai masuknya pengaruh Islam. Dunia mulai menyadari keberadaan bangunan ini sejak ditemukan 1814 oleh Sir Thomas Stamford Raffles, yang saat itu menjabat sebagai Gubernur Jenderal Inggris atas Jawa. Sejak saat itu Borobudur telah mengalami serangkaian upaya penyelamatan dan pemugaran (perbaikan kembali). Proyek pemugaran terbesar digelar pada kurun waktu 1975 hingga 1982 atas upaya Pemerintah Republik Indonesia dan UNESCO, kemudian situs bersejarah ini masuk dalam daftar Situs Warisan Dunia.Borobudur kini masih digunakan sebagai tempat ziarah keagamaan; tiap tahun umat Buddha yang datang dari seluruh Indonesia dan mancanegara berkumpul di Borobudur untuk memperingati Trisuci Waisak. Dalam dunia pariwisata, Borobudur adalah objek wisata tunggal di Indonesia yang paling banyak dikunjungi wisatawan.",
     jam: "06.30 - 16.30",
     harga: "50000",
     lokasi:
@@ -3789,7 +3795,7 @@ export const wisataData = [
     id: 87,
     nama: "Candi Ijo",
     deskripsi:
-      "Candi Ijo (bahasa Jawa: \u00ea\u00a6\u2022\u00ea\u00a6\u00a4\u00ea\u00a7\u20ac\u00ea\u00a6\u009d\u00ea\u00a6\u00b6\u00e2\u20ac\u2039\u00ea\u00a6\u2020\u00ea\u00a6\u2014\u00ea\u00a6\u00ba\u00ea\u00a6\u00b4, translit. Candhi Ijo) adalah sebuah kompleks percandian bercorak Hindu, berada 4 kilometer arah tenggara dari Candi Ratu Boko atau kira-kira 18 kilometer di sebelah timur kota Yogyakarta. Candi ini diperkirakan dibangun antara kurun abad ke-10 sampai dengan ke-11 Masehi pada saat zaman Kerajaan Medang periode Mataram.\n",
+      "Candi Ijo adalah sebuah kompleks percandian bercorak Hindu, berada 4 kilometer arah tenggara dari Candi Ratu Boko atau kira-kira 18 kilometer di sebelah timur kota Yogyakarta. Candi ini diperkirakan dibangun antara kurun abad ke-10 sampai dengan ke-11 Masehi pada saat zaman Kerajaan Medang periode Mataram.\n",
     jam: "07.00 - 18.00",
     harga: "5000",
     lokasi:
@@ -3833,7 +3839,7 @@ export const wisataData = [
     id: 88,
     nama: "Pantai Indrayanti",
     deskripsi:
-      "Pantai Indrayanti menawarkan keindahan alam yang menakjubkan. Hamparan pasir dan birunya laut menjadi pesona yang tiada dua. Pantai Indrayanti merupakan salah satu tempat wisata Yogyakarta yang menjadi rekomendasi bagi wisatawan. Jika kamu merasa jenuh di Malioboro, pantai ini bisa menjadi pilihannya.",
+      "Pantai Indrayanti menawarkan keindahan alam yang menakjubkan. Hamparan pasir dan birunya laut menjadi pesona yang tiada dua. Pantai Indrayanti merupakan salah satu tempat wisata Yogyakarta yang menjadi rekomendasi bagi wisatawan. Jika kamu merasa jenuh di Malioboro, pantai ini bisa menjadi pilihannya.Terletak di sebelah timur Pantai Sundak, pantai yang dibatasi bukit karang ini merupakan salah satu pantai yang menyajikan pemandangan berbeda dibandingkan pantai-pantai lain yang ada di Gunungkidul. Tidak hanya berhiaskan pasir putih, bukit karang, dan air biru jernih yang seolah memanggil-manggil wisatawan untuk menceburkan diri ke dalamnya, Pantai Indrayanti juga dilengkapi restoran dan cafe serta deretan penginapan yang akan memanjakan wisatawan. Beragam menu mulai dari hidangan laut hingga nasi goreng bisa di pesan di restoran yang menghadap ke pantai ini. Pada malam hari, gazebo-gazebo yang ada di bibir pantai akan terlihat cantik karena diterangi kerlip sinar lampu. Menikmati makan malam di cafe ini ditemani desau angin dan alunan debur ombak akan menjadi pengalaman romantis yang tak terlupa.",
     jam: "00.00 - 23.59",
     harga: "10000",
     lokasi:
@@ -4097,7 +4103,7 @@ export const wisataData = [
     id: 94,
     nama: "Goa Pindul",
     deskripsi:
-      "Gua Pindul adalah objek wisata berupa gua yang terletak di Desa Bejiharjo, Kecamatan Karangmojo, Kabupaten Gunungkidul. Gua Pindul dikenal karena cara menyusuri gua yang dilakukan dengan menaiki ban pelampung di atas aliran sungai bawah tanah di dalam gua, kegiatan ini dikenal dengan istilah cave tubing.",
+      "Gua Pindul adalah objek wisata berupa gua yang terletak di Desa Bejiharjo, Kecamatan Karangmojo, Kabupaten Gunungkidul. Gua Pindul dikenal karena cara menyusuri gua yang dilakukan dengan menaiki ban pelampung di atas aliran sungai bawah tanah di dalam gua, kegiatan ini dikenal dengan istilah cave tubing.Terletak di kawasan yang indah dan mempesona, Goa Pindul menawarkan lebih dari sekadar goa yang spektakuler. Anda dapat menjelajahi gua-gua menakjubkan, berenang di air jernih goa yang tenang, dan merasakan sensasi menyusuri sungai bawah tanah dengan tubing.Selain itu, Anda juga dapat menikmati keindahan alam sekitar dengan trekking, bersepeda, atau hanya bersantai di tepi sungai. Dengan keindahan alam yang menakjubkan dan petualangan yang menantang, wisata di sekitar Goa Pindul akan memikat Anda sejak awal dan meninggalkan kenangan tak terlupakan. Kami menawarkan paket wisata yang menarik untuk membantu anda dalam menjelajah alam goa pindul. Mulai dari Tubing Goa Pindul, Rafting di Sungai Oya, menjelajah Goa Pindul menggunakan Jeep, dan juga tersedia Homestay untuk anda yang ingin berlama di Goa Pindul.",
     jam: "07.00 -16.00",
     harga: "40000",
     lokasi:
@@ -4185,7 +4191,7 @@ export const wisataData = [
     id: 96,
     nama: "Pantai Depok Jogja",
     deskripsi:
-      "Pantai Depok (bahasa Jawa: \u00ea\u00a6\u00a5\u00ea\u00a6\u00b1\u00ea\u00a6\u00b6\u00ea\u00a6\u00b1\u00ea\u00a6\u00b6\u00ea\u00a6\u201a \u00ea\u00a6\u009d\u00ea\u00a6\u00ba\u00ea\u00a6\u00a5\u00ea\u00a6\u00ba\u00ea\u00a6\u00b4\u00ea\u00a6\u008f\u00ea\u00a7\u20ac, translit. Pasisir Dh\u00c3\u00a9pok) merupakan objek wisata pantai yang terletak di Kecamatan Kretek, Kabupaten Bantul, Daerah Istimewa Yogyakarta, sekitar tiga puluh kilometer di sebelah selatan Kota Yogyakarta. Pantai ini terkenal akan pasar ikannya yang ikannya merupakan hasil tangkapan nelayan Pantai Depok.",
+      "Pantai Depok merupakan objek wisata pantai yang terletak di Kecamatan Kretek, Kabupaten Bantul, Daerah Istimewa Yogyakarta, sekitar tiga puluh kilometer di sebelah selatan Kota Yogyakarta. Pantai ini terkenal akan pasar ikannya yang ikannya merupakan hasil tangkapan nelayan Pantai Depok. Pantai ini merupakan tempat favorit bagi pecinta wisata kuliner, karena tersedia sejumlah warung makan tradisional yang menjajakan sea food yang berderet tak jauh dari pantai. Beberapa warung makan bahkan sengaja dirancang menghadap keselatan, jadi sambil menikmati hidangan laut, pengunjung bisa melihat pemandangan laut lepas dengan ombaknya yang besar. Bersantai di pantai sekaligus berkuliner, merupakan dua kegiatan yang menyenangkan yang dilakukan di pantai ini",
     jam: "00.00 - 23.59",
     harga: "10000",
     lokasi:
@@ -4273,7 +4279,7 @@ export const wisataData = [
     id: 98,
     nama: "Hutan Mangrove Kulon Progo",
     deskripsi:
-      "Di sini ada kawasan wisata Hutan Mangrove Kulon Progo yang menyajikan keindahan alamnya. hutan Mangrove  ini memberikan pesona tersendiri selain pantai Glagah yang sudah menjadi primadona di Kulon Progo ini. Letak lokasi hutan mangrove  Kulon Progo ini sejatinya sudah masuk ke kawasan Pasir Mendit Kecamatan Temon Kulon Progo.\n",
+      "Di sini ada kawasan wisata Hutan Mangrove Kulon Progo yang menyajikan keindahan alamnya. hutan Mangrove  ini memberikan pesona tersendiri selain pantai Glagah yang sudah menjadi primadona di Kulon Progo ini. Letak lokasi hutan mangrove  Kulon Progo ini sejatinya sudah masuk ke kawasan Pasir Mendit Kecamatan Temon Kulon Progo.Kawasan wisata ini penuh dengan pemandangan hijau mangrove dan indahnya pesisir pantai.  Hutan Mangrove Kulon Progo juga memiliki spot foto unik yang berlatar belakang mangrove dan pantai. Beberapa spot foto yang dimiliki Hutan Mangrove Kulon Progo, yaitu gazebo, ayunan, jembatan Api Api, gua, jalan bambu di antara pohon bakau, dan masih banyak spot lainnya. Wisatawan juga dapat menikmati naik perahu keliling Mangrove Pasir Mendhit atau Mangrove Wana Tirta menuju Mangrove Pantai Kadilangu. Selama naik perahu, wisatawan akan menikmati rimbunnya hutan mangrove yang dijaga masyarakat setempat. Selain keindahan alam, kawasan mangrove juga menjadi habitat burung kuntul, udang, kepiting, belanak, biawak, dan berbagai burung langka lainnya. Wisatawan dapat menikmati kuliner dengan menu olahan ikan laut sebelum pulang, seperti udang, kepiting, maupun ikan laut.",
     jam: "06.00 - 18.00",
     harga: "5000",
     lokasi:
@@ -4317,7 +4323,7 @@ export const wisataData = [
     id: 99,
     nama: "Jogja Bay Pirates Adventure Waterpark",
     deskripsi:
-      "Jogja Bay Waterpark atau Jogja Bay (bahasa Jawa: \u00ea\u00a6\u00a0\u00ea\u00a6\u00bc\u00ea\u00a6\u00ad\u00ea\u00a6\u00b8\u00ea\u00a6\u008f\u00ea\u00a7\u20ac\u00ea\u00a6\u201d\u00ea\u00a6\u00aa\u00ea\u00a6\u00ba\u00ea\u00a6\u00b4\u00ea\u00a6\u2019\u00ea\u00a6\u00be 'Teluk Ngayogya') adalah salah satu taman wisata air atau waterpark terbesar di Asia Tenggara yang berlokasi di Yogyakarta, Indonesia. Taman wisata air ini dibuka secara resmi pada 20 Desember 2015.",
+      "Jogja Bay Waterpark atau Jogja Bay adalah salah satu taman wisata air atau waterpark terbesar di Asia Tenggara yang berlokasi di Yogyakarta, Indonesia. Taman wisata air ini dibuka secara resmi pada 20 Desember 2015.Bagi pecinta olahraga air, tentunya bahagia dengan adanya tempat wisata air yang satu ini, yaitu Jogja Bay Waterpark (JBW) atau Jogja Bay Pirates Adventure Waterpark. Kabarnya, tempat wisata air ini menjadi salah satu waterpark tercanggih dan terbesar di Indonesia. Tidak hanya itu, di Jogja Bay Pirates Adventure Waterpark juga tersedia berbagai macam wahana air yang memacu adrenalin dan bertemakan bajak laut.Perlu diketahui, Jogja Bay Pirates Adventure Waterpark memiliki 19 wahana air yang cukup menantang. Selain itu, beberapa wahana air di waterpark ini memadukan unsur budaya Jawa dan Eropa.",
     jam: "08.00 -15.00",
     harga: "150000",
     lokasi:
@@ -4361,7 +4367,7 @@ export const wisataData = [
     id: 100,
     nama: "Pantai Sepanjang",
     deskripsi:
-      "Siapa sangka, ternyata Yogyakarta pun punya \u00e2\u20ac\u0153Kuta\u00e2\u20ac\u009d-nya sendiri Ialah Pantai Sepanjang, salah satu pantai di Kabuaten Gunungkidul. Daerah yang satu ini memang memiliki koleksi pantai cantik yang tak terhitung jumlahnya. Bahkan pantai ini digadang-gadang sebagai \u00e2\u20ac\u02dcKuta Tempo Doeloe\u00e2\u20ac\u02dc. Memang, pesona seperti apa yang ditawarkan pantai ini?",
+      "Pantai Sepanjang terletak di Desa Kemadang, Kecamatan Tanjungsari, Kabupaten Gunungkidul, Yogyakarta. Dari pusat kota Yogyakarta jarak tempuh ke Pantai Sepanjang sekitar 60,9 km dengan perkiraan tempuh sekitar 1 jam 25 menit.Dilansir dari laman gunungkidulkab.go.id, Pantai Sepanjang memiliki garis pantai yang terbilang lebih panjang di antara pantai - pantai lainnya yang terletak di pesisir selatan pulau Jawa.Untuk menuju ke lokasi, detikers tidak perlu khawatir, karena kondisi jalan menuju Pantai Sepanjang sudah cukup baik kok. Jadi, bisa dilalui menggunakan bus besar, mobil, ataupun sepeda motor.Lokasi pantai ini juga melewati Pantai Kukup. Selain Pantai Kukup, pantai terdekat lainnya yaitu Pantai Drini, Pantai Watu Kodok, dan Pantai Sanglen.",
     jam: "00.00- 23.59",
     harga: "10000",
     lokasi:
@@ -4405,7 +4411,7 @@ export const wisataData = [
     id: 101,
     nama: "Pantai Krakal",
     deskripsi:
-      "Pantai krakal merupakan pantai strategis untuk singgah, selain bisa menikmati panorama laut, wisatawan juga bisa mencicipi kuliner laut. Terdapat icon berupa bangunan berbentuk ikan diatas bukit yang sering dijadikan tempat foto.",
+      "Membicarakan pantai – pantai indah dikawasan Gunungkidul seolah tidak ada habisnya, salah satu pantai indah yang dimiliki adalah Pantai Krakal. Pantai Krakal terletak di Ngestirejo, Tanjungsari, Gunungkidul. Nama “KERAKAL” dalam bahasa Jawa berarti batu-batuan kecil yang tersebar. Pantai ini diberi nama Pantai Krakal berasal dari istilah “KERAKAL” dan untuk memudahkan dalam penyebutannya maka istilah KERAKAL menjadi KRAKAL. Diberi nama demikian karena di pantai tersebut selain berupa hamparan pasir putih yang memanjang juga banyak terdapat batuan-batuan (kerakal) dengan permukaan halus dan berwarna putih. Kerakal-kerakal tersebut sangat bagus menghiasi panjangnya bibir pantai. Pantai krakal memiliki keindahan pasir putih, air yang jernih dan ketika terjadi pasang surut, pengunjung dapat menikmati keindahan aneka biota laut yang berada didalamnya. Salah satu jenis ikan yang terkenal di pantai krakal adalah ikan damselfish, ikan berwarna kuning dengan aksen biru di punggungnya.",
     jam: "00.00- 23.59",
     harga: "10000",
     lokasi:
@@ -4448,7 +4454,7 @@ export const wisataData = [
     id: 102,
     nama: "Pantai Glagah",
     deskripsi:
-      "Pantai Glagah Indah adalah salah satu pantai yang menjadi objek wisata di provinsi Daerah Istimewa Yogyakarta. Pantai Glagah Indah merupakan salah satu pantai di Yogyakarta dengan hamparan pasir yang berwarna hitam dan banyak mengandung pasir besi. Pantai Glagah Indah memiliki akses yang baik",
+      "Pantai Glagah Indah adalah salah satu pantai yang menjadi objek wisata di provinsi Daerah Istimewa Yogyakarta. Pantai Glagah Indah merupakan salah satu pantai di Yogyakarta dengan hamparan pasir yang berwarna hitam dan banyak mengandung pasir besi. Pantai Glagah Indah memiliki akses yang baik. Selain tidak jauh dari jalan provinsi, jalan menuju pantai dan jalan di sepanjang pantai Glagah sudah beraspal.Pantai Pantai Glagah Indah terletak di Desa Glagah, Kecamatan Temon, Kabupaten Kulon Progo, Provinsi Daerah Istimewa Yogyakarta, bersinggungan dengan Bandar Udara Internasional Yogyakarta. Lokasi pantai Glagah Indah kurang lebih 40 km dari kota Yogyakarta, dan diperlukan waktu kurang lebih satu jam perjalanan.",
     jam: "00.00- 23.59",
     harga: "5000",
     lokasi:
@@ -4626,7 +4632,7 @@ export const wisataData = [
     id: 106,
     nama: "Pantai Samas",
     deskripsi:
-      "Pantai Samas (bahasa Jawa: \u00ea\u00a6\u00a5\u00ea\u00a6\u00b1\u00ea\u00a6\u00b6\u00ea\u00a6\u00b1\u00ea\u00a6\u00b6\u00ea\u00a6\u201a\u00e2\u20ac\u2039\u00ea\u00a6\u00b1\u00ea\u00a6\u00a9\u00ea\u00a6\u00b1\u00ea\u00a7\u20ac, translit. Pasisir Samas) merupakan salah satu pantai yang berada di deretan pantai sebelah timur Pantai Parangtritis. Lokasi Pantai Samas kurang lebih 14 km arah selatan Kota Bantul atau sekitar 35 km dari pusat Kota Yogyakarta, tepatnya di Desa Srigading, Kecamatan Sanden, Kabupaten Bantul, Daerah Istimewa Yogyakarta.",
+      "Banyak yang mengira Pantai Samas merupakan salah satu pantai baru Bantul. Padahal tahukah kamu pantai ini sudah ada sejak lama, bahkan dulunya pantai ini pernah menjadi salah satu destinasi wisata pantai utama di Bantul.Sejarah Pantai Samas memang cukup panjang, di tahun 1980an sampai 1990an pantai ini menjadi salah satu pantai penghasil garam terbesar di Jogja. Selain itu, pantai ini juga masih sangat ramai oleh wisatawan.Namun seiring berkembangnya zaman, pantai ini sudah tidak terlalu ramai seperti dulu. Walaupun demikian pantai ini tetap menjadi salah satu pantai terindah yang ada di Bantul.Saat ini Pantai Samas menjadi salah satu hidden gem di Jogja. Kamu yang ingin menikmati liburan berbeda di Jogja, bisa memasukkan pantai ini ke dalam daftar tempat wisata yang harus dikunjungi ketika liburan di Bantul, Jogja.",
     jam: "00.00- 23.59",
     harga: "4000",
     lokasi:
@@ -4847,7 +4853,7 @@ export const wisataData = [
     id: 111,
     nama: "Pantai Jogan",
     deskripsi:
-      "Pantai Jogan adalah objek wisata pantai yang terletak di Dusun Duwet, Purwodadi, Tepus, Kabupaten Gunungkidul, Daerah Istimewa Yogyakarta. Lokasinya berjarak kurang lebih 74 km dari Pusat kota Yogyakarta. Pantai ini terletak di jajaran pegunungan Gunungkidul, yang memberikan pemandangan alam tebing dan air terjun yang mengarah ke laut lepas.",
+      "Pemandangan aliran sungai yang membentuk air terjun dan langsung jatuh ke bibir laut dapat wisatawan nikmati di pantai jogan. Pantai ini memiliki keindahan alam yang luar biasa, 3 jenis keindahan alam dapat langsung dinikmati ditempat ini. Ketiganya adalah aliran air terjun, pantai, dan pemandangan indahnya panorama alam di sekeliling pantai. Wisatawan dapat menikmati guyuran air terjun dengan menuruni tebing , ada dua cara untuk turun, pertama dengan tehnik canyoning alias rappeling di air terjun. Tentu diperlukan peralatan dan kemampuan mumpuni untuk melakukannya. Kedua, menapaki turunan licin yang basah dengan dilengkapi kayu – kayu penopang tubuh.Derasnya aliran air terjun dapat dinikmati ketika datang musim penghujan, sedangkan di musim kemarau debit air sangat kecil. Pantai Jogan terletak di sebelah barat pantai siung, yang terkenal dengan lokasi panjat tebing. Jalan menuju pantai jogan belum bisa dilalui dengan bus besar, hanya bisa dilewati dengan kendaraan kecil.",
     jam: "00.00 -23.59",
     harga: "5000",
     lokasi:
@@ -4980,7 +4986,7 @@ export const wisataData = [
     id: 114,
     nama: "Pantai Greweng",
     deskripsi:
-      "Di Kabupaten Gunungkidul, tidak sulit memilih pantai yang masih sepi dan indah. Pantai Greweng yang berada di Kecamatan Girisubo adalah satu di antaranya. Tidak hanya cantik, pantai ini juga dikenal sebagai destinasi untuk berkemah. Namun, siapkan energi lebih untuk mencapai lokasinya yang terpencil.",
+      "Di Greweng, kamu akan disuguhi oleh kemurnian alam yang masih terjaga.Karena minim wisatawan, keasrian alamnya pun belum banyak terusik.Nilai plus lain dari pantai ini adalah, tidak adanya spot selfie kekinian yang dibangun.Kamu bisa menikmati langit malam yang bersih sambil bersantai di hammock atau tikar yang digelar di sepanjang pantai. Jika ingin menyaksikan sunset atau sunrise, sebaiknya dibarengi dengan aktivitas camping.Meski cukup terpencil, fasilitas yang tersedia di Pantai Greweng cukup memadai.Selain kios makanan, ada pula toilet bersih di sini.Sedangkan area parkirnya berada di kawasan Pantai Jungwok, cukup jauh dari pantai.Lokasinya berada di sebelah timur Pantai Jungwok dan Pantai Wediombo.Pantai Greweng bisa diakses dari kedua pantai tersebut dengan berjalan kaki.Namun, untuk mencapai pantai satu ini sejatinya tidaklah mudah.Dilingkupi oleh bukit, pantai ini memiliki akses jalan setapaknya sendiri.",
     jam: "00.00 -23.59",
     harga: "5000",
     lokasi:
@@ -5334,7 +5340,7 @@ export const wisataData = [
     id: 122,
     nama: "Wisata Kaliurang",
     deskripsi:
-      "Jogja selalu menarik untuk dikulik, terlebih tempat wisatanya. Berbagai wisata tersedia di Jogja, mulai dari wisata buatan hingga wisata alam. Seperti halnya Taman Wisata Kaliurang, yang memadukan unsur alam dengan taman rekreasi. Taman rekreasi ini berada di kawasan lereng Gunung Merapi. Bukan hal aneh jika objek wisata ini sangat sejuk. Menghabiskan waktu untuk berlibur di sini merupakan pilihan yang tepat.",
+      "Jogja selalu menarik untuk dikulik, terlebih tempat wisatanya. Berbagai wisata tersedia di Jogja, mulai dari wisata buatan hingga wisata alam. Seperti halnya Taman Wisata Kaliurang, yang memadukan unsur alam dengan taman rekreasi. Taman rekreasi ini berada di kawasan lereng Gunung Merapi. Bukan hal aneh jika objek wisata ini sangat sejuk. Menghabiskan waktu untuk berlibur di sini merupakan pilihan yang tepat.Kaliurang, terletak di kaki Gunung Merapi yang megah, adalah surga bagi pencinta alam dan petualang. Dengan udara yang sejuk dan pemandangan yang memukau, tempat ini menawarkan keindahan alam yang asli dan berbagai aktivitas luar ruangan. Pengunjung dapat menikmati trekking melalui jalur-jalur hijau yang rimbun, berendam di air terjun yang menyegarkan, atau sekadar bersantai di salah satu banyak gazebo yang menghadap ke pemandangan gunung yang spektakuler. Kaliurang juga menyediakan kesempatan untuk mempelajari lebih lanjut tentang vulkanologi atau mengamati bintang di malam hari yang cerah. Tempat ini sempurna untuk mengisi ulang energi dan melarikan diri dari keramaian kota.",
     jam: "06.00 -17.00",
     harga: "8000",
     lokasi:
@@ -5685,11 +5691,13 @@ export const wisataData = [
   },
   {
     id: 130,
-    nama: "Museum Heksa Priyo",
-    deskripsi: "",
-    jam: "00.00- 23.59",
+    nama: "History Of Java Museum",
+    deskripsi:
+      "History of Java Museum (dalam bahasa Indonesia: Museum Sejarah Jawa) beroperasi pada akhir Desember 2018.History of Java Museum merupakan ikon wisata sejarah dan budaya berlokasi di Jalan Parangtritis KM 5.5, Kecamatan Sewon, Kabupaten Bantul, DIY.History of Java Museum menceritakan tentang Peradaban Tanah Jawa dan dibangun dengan design gedung yang unik, sangat inspiratif, dan penuh nilai filosofis.Design bangunan History of Java Museum menggambarkan simbol gunungan dalam cerita pewayangan. Serta melambangkan kehidupan manusia (golong gilig), yaitu Manunggaling Jiwa, Rasa, Cipta, Karsa, dan Karya dalam kehidupan kita. Sebuah Miniatur budaya, peradaban, dan sejarah Tanah Jawa. Ketika berkunjung, setiap pengunjung akan ditemani pemandu (guide museum) untuk bersama-sama mengenal berbagai koleksi bersejarah yang diwariskan sejak era purbakala sampai era kerajaan besar di tanah Jawa. Selain itu, beragam aktivitas wisata History of Java Museum bertumpu pada komponen edukasi serta mengaplikasikan teknologi visual yang menghibur. Oleh karena itu, proses bertukar informasi antara pengunjung dan pemandu museum juga didukung teknologi Augmented Reality (AR). Teknologi AR pada barcode gambar yang ikonik menjadikan obyek foto tersebut seakan nyata saat dipotret bersama pengunjung History of Java Museum.",
+    jam: "00.00- 15.00",
     harga: "5000-20000",
-    lokasi: "Kota Yogyakarta",
+    lokasi:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.4878149155024!2d110.3596860750055!3d-7.843902892177475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a575929f54059%3A0xbf33eab67707cf2!2sHistory%20Of%20Java%20Museum!5e0!3m2!1sid!2sid!4v1718345942770!5m2!1sid!2sid",
     fasilitas: [
       { nama: "Lokasi Fotografi", icon: foto },
       { nama: "Papan Informasi", icon: papan },
@@ -5712,11 +5720,18 @@ export const wisataData = [
       },
     ],
     web: {
-      title: "",
-      link: "",
+      title: "History of Java Museum",
+      link: "https://thehistoryofjavamuseum.com/",
     },
-    foto: ["", "", "", "", ""],
-    "detail lokasi": "",
+    foto: [
+      "https://gudeg.net/cni-content/uploads/modules/direktori/logo/20181212091441.jpg",
+      "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001587020071/History-of-Java-Museum-Tickets-64fdcee0-7e46-4066-9641-890709f2ccd5.jpeg?tr=q-60,c-at_max,w-1280,h-720&_src=imagekit",
+      "https://jelajah-api.bantulkab.go.id/files/content/71984ab020f7165c865525ab4cb594ed.jpg",
+      "https://alodiatour.com/wp-content/uploads/2019/08/Harga-Tiket-Masuk-Museum-History-Of-Java.jpg",
+      "https://visitingjogja.jogjaprov.go.id/wp-content/uploads/2021/02/122735631_357744428838203_6419526594357121663_n.jpg",
+    ],
+    "detail lokasi":
+      "Jl. Parangtritis Km 5.5 ( Pyramid Cafe) Tarudan Bangunharjo Sewon Bantul Regency Special Region of Yogyakarta Tarudan, Tarudan, Bangunharjo, Sewon, Bantul Regency, Special Region of Yogyakarta 55188",
   },
   {
     id: 131,
@@ -6146,7 +6161,7 @@ export const wisataData = [
       link: "https://budaya.jogjaprov.go.id/berita/detail/1550-arjog",
     },
     foto: [
-      "https://cdns.klimg.com/dream.co.id/resized/640x320/news/2022/07/04/202781/pameran-seni-di-jogja-artjog-2022-siap-dilaksanakan-dengan-tema-expanding-awareness--220704o-rev220705.jpg",
+      "https://disk.mediaindonesia.com/files/news/2022/07/90b36768f4865fd1ff7fa60974570d2f.jpeg",
       "https://api2.kemenparekraf.go.id/storage/app/resources/image_artikel/shutterstock_1510058213_Rifki%20Alfirahman.jpg",
       "https://padmanews.id/wp-content/uploads/2022/10/Art-Jog2.png",
       "https://genpijogja.com/wp-content/uploads/2023/07/Waktu-Batu-Rumah-yang-Terbakar-di-ARTJOG-2023.jpeg",
@@ -6157,13 +6172,13 @@ export const wisataData = [
   },
   {
     id: 141,
-    nama: "Art Space by ARMA",
+    nama: "Museum Sandi",
     deskripsi:
-      "Menjadi bagian dari kompleks ARMA (Agung Rai Museum of Art), Art Space by ARMA menyajikan karya seniman-seniman internasional dan lokal. Dengan pameran yang beragam, tempat ini mengajak pengunjung untuk mengapresiasi dan mendalami ragam seni rupa dari berbagai budaya.",
-    jam: "11.00 - 18.00",
+      "MUSEUM SANDI merupakan bangunan warisan budaya yang terletak di Jalan F.M. Noto No. 21 Kotabaru. Bangunan ini berada di dalam Kawasan Kotabaru yang merupakan kawasan hunian masyarakat Eropa pada masa Kolonial. Kawasan Kotabaru mulai dibangun pada 1920 sebagai hasil perluasan wilayah pemukiman orang Eropa. Pada masa awal berdirinya bangunan ini juga ditujukan sebagai rumah tinggal bagi orang-orang Eropa. Bangunan ini bercirikan arsitektur Indis khas kawasan Kotabaru. Bangunan ini memiliki 2 lantai dengan ukuran pintu dan jendela yang besar. Pada lantai dua terdapat balkon yang membuatnya terlihat semakin megah.Setelah Kemerdekaan Indonesia situasi dan kondisi Kota Yogyakarta turut berubah dengan drastis. Banyak bangunan milik orang-orang Belanda yang ditinggalkan dan terbengkalai karena situasi pergantian kekuasaan dan perang. Kemudian disusul dengan berpindahnya Ibukota Republik Indonesia dari Jakarta ke Yogyakarta pada 1946. Pada masa ini dibutuhkan banyak bangunan sebagai kantor kementerian, salah satu bangunan yang mengalami alih fungsi adalah bangunan ini. Pada masa kemerdekaan bangunan ini berfungsi sebagai Kantor Kementerian Luar Negeri RI.",
+    jam: "09.00 - 18.00",
     harga: "5000-20000",
     lokasi:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31622.301446027952!2d110.30501617431642!3d-7.812286299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57ef50b7c549%3A0x3114b1676c9b86ac!2sSangkring%20Art%20Space!5e0!3m2!1sid!2sid!4v1715398429107!5m2!1sid!2sid",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.0497069295106!2d110.36857987500497!3d-7.7845548922351995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a582e758eb1fb%3A0x149a142e1131425d!2sMuseum%20Sandi!5e0!3m2!1sid!2sid!4v1718346398160!5m2!1sid!2sid",
     fasilitas: [
       { nama: "Lokasi Fotografi", icon: foto },
       { nama: "Area Merokok", icon: rokok },
@@ -6186,17 +6201,18 @@ export const wisataData = [
       },
     ],
     web: {
-      title: "",
-      link: "",
+      title: "MUSEUM SANDI",
+      link: "https://kebudayaan.jogjakota.go.id/page/index/museum-sandi",
     },
     foto: [
-      "https://i0.wp.com/www.armabali.com/wp-content/uploads/2023/08/armabali-museum-9.jpg?fit=1200%2C800&ssl=1",
-      "https://i0.wp.com/www.armabali.com/wp-content/uploads/2023/08/armabali-museum-12.jpg?fit=1200%2C800&ssl=1",
-      "https://www.wargamer.com/wp-content/uploads/2021/02/arma-3-dlc-art-of-war-4.jpg",
-      "https://www.wargamer.com/wp-content/sites/wargamer/2021/02/arma-3-dlc-art-of-war.jpg",
-      "https://museu.ms/remote.jpg.ashx?width=1000&height=450&format=jpg&mode=crop&scale=both&404=no_image.gif&urlb64=aHR0cHM6Ly9tdXNldW1zLmJsb2IuY29yZS53aW5kb3dzLm5ldC9kYXRhL0RvY3VtZW50cy9NVVNFVU1TL2luZG9iYWFybWEvNzM2NTAvaW5kb2JhYXJtYV8yMDEzMDUxNTEyMjU1NTQzNDEuanBn&hmac=26_bo5vHPHs",
+      "https://asset.kompas.com/crops/wFer0DP_wOXXMBzC2Zu4g1E6aHA=/0x0:1123x748/750x500/data/photo/2022/03/31/6245877d63bb7.png",
+      "https://www.yogyes.com/id/yogyakarta-tourism-object/other/museum-sandi/9.jpg",
+      "https://cdn.antaranews.com/cache/1200x800/2021/09/06/BFB0B13F-D5C5-4232-8C40-BF72FD441010.jpeg",
+      "https://cdn.antaranews.com/cache/1200x800/2014/01/20140129Museum-Sandi-Negara-290114-nov-3.jpg",
+      "https://farm6.staticflickr.com/5237/14087174135_228b8ef22f_z.jpg",
     ],
-    "detail lokasi": "",
+    "detail lokasi":
+      "Jl. Faridan M Noto No.21, Kotabaru, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55224",
   },
   {
     id: 142,
@@ -6244,12 +6260,13 @@ export const wisataData = [
   },
   {
     id: 143,
-    nama: "Maranatha Christian University Art Gallery",
+    nama: "Museum Perjuangan",
     deskripsi:
-      "Merupakan galeri seni di bawah naungan Universitas Kristen Maranatha, tempat ini menyediakan platform bagi seniman-seniman muda untuk memamerkan karya-karya mereka. Galeri ini tidak hanya mencerminkan kreativitas mahasiswa, tetapi juga menjadi ruang inspiratif bagi penggemar seni rupa kontemporer.",
-    jam: "09.00 - 17.00",
+      "Museum Perjuangan Yogyakarta adalah salah satu penanda sejarah pentingnya Hari Kebangkitan Nasional yang diprakarsai oleh Dr. Sutomo pada tanggal 20 Mei 1908. Pada tanggal tersebut lahir sebuah pergerakan Budi Utomo yang didirikan beliau bersama dengan para mahasiswa STOVIA Jakarta yang dijadikan sebagai Hari Kebangkitan NasionalSebagai bentuk apresiasi pemerintah untuk mengenang setengah abad Hari Kebangkitan Nasional, berdirilah Museum Perjuangan Yogyakarta. Pembangunan museum dimulai dengan peletakan batu pertama oleh Sri Paku Alam VIII pada tanggal 29 Juni 1961. Pembangunan museum ini selesai pada tahun 1963.Gedung Museum Perjuangan Yogyakarta memadukan gaya arsitektur zaman kekaisaran Romawi Kuno dan bentuk candi di bagian bawahnya. Bentuk bangunan melingkar seperti silinder yang dikenal dengan istilah Ronde Tempel. Jika Anda perhatikan, atap gedung museum menyerupai topi baja dengan 5 buah bambu runcing berdiri di atas bola dunia.",
+    jam: "17.00 - 00.00",
     harga: "0-5000",
-    lokasi: "Kota Yogyakarta",
+    lokasi:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.7478757044246!2d110.36928617500533!3d-7.81649049220416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5798b77b074f%3A0x6c69556d4022dc2c!2sMuseum%20Perjuangan!5e0!3m2!1sid!2sid!4v1718347442688!5m2!1sid!2sid",
     fasilitas: [
       { nama: "Lokasi Fotografi", icon: foto },
       { nama: "Area Merokok", icon: rokok },
@@ -6272,33 +6289,34 @@ export const wisataData = [
       },
     ],
     web: {
-      title: "",
-      link: "",
+      title: "Museum Perjuangan Yogyakarta",
+      link: "https://pariwisata.jogjakota.go.id/detail/index/331",
     },
     foto: [
-      "https://art.maranatha.edu/wp-content/uploads/2017/08/beranda_web-banner-5.jpg",
-      "https://art.maranatha.edu/wp-content/uploads/2023/06/Copy-of-DSCF9661-scaled.jpg",
-      "https://art.maranatha.edu/wp-content/uploads/2023/06/Copy-of-DSCF9664-scaled.jpg",
-      "https://art.maranatha.edu/wp-content/uploads/2023/07/DSCF9607-1-1024x683.jpg",
-      "https://art.maranatha.edu/wp-content/uploads/2023/12/DSC_4432-1024x684.jpg",
+      "https://museum.co.id/wp-content/uploads/2020/09/download-2021-08-28T185659.508.jpeg",
+      "https://direktorionlinemuseumdiindonesia.wordpress.com/wp-content/uploads/2017/04/perjuuungan.jpg",
+      "https://sewamobiljogja.id/wp-content/uploads/2018/10/museum-perjuangan-yogyakarta.jpeg",
+      "https://jogjaindotrans.com/wp-content/uploads/2023/10/Museum-Perjuangan-Yogyakarta-1.png",
+      "https://www.kartanesia.com/wp-content/uploads/2019/04/Menilik-Jejak-Sejarah-Bangsa-dari-Museum-Perjuangan-Yogyakarta-3-1.jpg",
     ],
-    "detail lokasi": "",
+    "detail lokasi":
+      "Depan museum perjuangan, Jl. Kolonel Sugiyono No.24, Brontokusuman, Kec. Mergangsan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55153",
   },
   {
     id: 144,
-    nama: "Gudeg Pawon Gallery & Souvenir Shop",
+    nama: "Museum Pusat TNI Angkatan Udara Dirgantara Mandala",
     deskripsi:
-      "Tak hanya dikenal sebagai restoran yang menghidangkan hidangan tradisional Gudeg yang lezat, Gudeg Pawon juga menawarkan galeri seni dan toko suvenir yang memamerkan karya seniman lokal. Dengan suasana yang ramah, tempat ini menciptakan pengalaman yang menyeluruh, menyatukan penggemar seni dan pencinta kuliner.",
-    jam: "17.00 -23.00",
+      "Museum Pusat TNI AU Dirgantara Mandala adalah museum yang digagas oleh TNI Angkatan Udara untuk mengabadikan peristiwa bersejarah dalam lingkungan TNI AU, bermarkas di kompleks Pangkalan Udara Adi Sutjipto, Yogyakarta. Museum ini sebelumnya berada berada di Jalan Tanah Abang Bukit, Jakarta dan diresmikan pada 4 April 1969 oleh Panglima AU Laksamana Roesmin Noerjadin lalu dipindahkan ke Yogyakarta pada 29 Juli 1978.Atas gagasan pimpinan TNI AU, maka didirikanlah Museum Pusat TNI AU Dirgantara Mandala sebagai tempat untuk mengabadikan dan mendokumentasikan seluruh kegiatan dan peristiwa bersejarah di lingkungan TNI AU. Museum ini telah diresmikan pada tanggal 4 April 1969 oleh Panglima Angkatan Udara LaksamanaRoesmin Noerjadin. Awalnya, museum berada di Jalan Tanah Abang Bukit, Jakarta. Akan tetapi, museum kemudian dipindahkan ke Yogyakarta karena dianggap sebagai tempat penting lahirnya TNI AU dan pusat kegiatan TNI AU. Dengan pertimbangan bahwa koleksi Museum Pusat TNI AU Dirgantara Mandala, terutama Alutsista Udara berupa pesawat terbang yang terus berkembang sehingga gedung museum di Kesatrian AKABRI Bagian Udara tidak dapat menampung dan pertimbangan lokasi museum yang sukar dijangkau pengunjung, maka Pimpinan TNI-AU memutuskan untuk memindahkan museum ini lagi.Pimpinan TNI-AU kemudian menunjuk gedung bekas pabrik gula di Wonocatur Lanud Adisutjipto yang pada masa pendudukan Jepang digunakan sebagai gudang logisitik sebagai Museum Pusat TNI-AU Dirgantara Mandala.",
+    jam: "09.00 -15.00",
     harga: "5000-20000",
     lokasi:
-      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15811.399305759218!2d110.3901396!3d-7.805718!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57700347cb51%3A0xed0b575329f65c3d!2sGudeg%20Pawon!5e0!3m2!1sid!2sid!4v1715398621200!5m2!1sid!2sid",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7905.985626029186!2d110.40923479132525!3d-7.790584568917227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5798c3e7637b%3A0x505f1eb0bb91bcf4!2sMuseum%20Pusat%20TNI%20AU%20Dirgantara%20Mandala!5e0!3m2!1sid!2sid!4v1718347132136!5m2!1sid!2sid",
     fasilitas: [
       { nama: "Lokasi Fotografi", icon: foto },
       { nama: "Area Merokok", icon: rokok },
-      { nama: "Rumah Makan", icon: restoran },
-      { nama: "Toko Cenderamata", icon: toko },
-      { nama: "Area Parkir", icon: parkir },
+      { nama: "WIFI", icon: wifi },
+      { nama: "Papan Informasi", icon: papan },
+      { nama: "Pemandu Wisata", icon: tour },
     ],
     aktivitas: [
       {
@@ -6315,17 +6333,17 @@ export const wisataData = [
       },
     ],
     web: {
-      title: "Gudeg Pawon",
-      link: "https://visitingjogja.jogjaprov.go.id/12820/gudeg-pawon-2/",
+      title: "Museum Pusat TNI Angkatan Udara Dirgantara Mandala",
+      link: "https://pop.tni-au.mil.id/tentang-kami/detail-sejarah/museum-pusat-tni-angkatan-udara-dirgantara-mandala",
     },
     foto: [
-      "https://discoveryourindonesia.com/wp-content/uploads/2020/03/Yogyakarta-souvenir-shopping-guide-1140x550.jpg",
-      "https://jogjakita.co.id/wp-content/uploads/2021/03/Gudeg-Pawon.jpg",
-      "https://tripjogja.co.id/wp-content/uploads/2019/10/Fasilitas-di-Gudeg-Pawon.jpg",
-      "https://www.gudeg.net/cni-content/uploads/modules/direktori/logo/20160816090937.JPG",
-      "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/8/22/550d8e75-7220-419a-b1fa-56113e3fa4c6.jpg",
+      "https://pariwisata.slemankab.go.id/wp-content/uploads/2017/04/museum_dirgantara_mandala.jpg",
+      "https://geotourism.guide/wp-content/uploads/2019/03/Dirgantara-Mandala-Museum.jpg",
+      "https://visitingjogja.jogjaprov.go.id/wp-content/uploads/2021/03/1.png",
+      "https://statics.indozone.news/local/644c96d8672af.jpg",
+      "https://o-cdn-cas.sirclocdn.com/parenting/images/Pameran_Museum_Dirgantara.width-800.format-webp.webp",
     ],
     "detail lokasi":
-      "Jl. Prof. DR. Soepomo Sh UH/IV No.36, Warungboto, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55164",
+      "Kompleks Pangkalan Udara Adisucipto Jl. Raya Janti, Karang Janbe, Maguwoharjo, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55282",
   },
 ];

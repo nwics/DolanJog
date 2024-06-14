@@ -1,0 +1,18 @@
+/* Home.module.css */
+.containers {
+    /* Style default untuk container */
+  }
+  
+  /* Media query untuk tablet */
+  @media (min-width: 768px) {
+    .containers {
+      /* Style khusus untuk tablet */
+    }
+  }
+  
+  /* Media query untuk desktop */
+  @media (min-width: 1024px) {
+    .containers {
+      /* Style khusus untuk desktop */
+    }
+  }

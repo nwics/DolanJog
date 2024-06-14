@@ -7,15 +7,16 @@ import RightArrow from '../assets/icons/right-arrow-rounded.svg'
 // import styles from '../components/BackgrundCarousel.module.css'
 import Container from "./Container";
 import { wisataData } from "../assets/namaTempatWisata";
-
+import { useMediaQuery } from "@uidotdev/usehooks";
 
 const SlideCaraousel = () => {
+    const isSmallDevice = useMediaQuery("only screen and (max-width: 768px)");
     const topTempatWisataAlam = wisataData.slice(42,49)
     return (
-        <section className=" bg-primary-blue">
+        <section className={`bg-primary-blue ${isSmallDevice ? "py-5 mt-10" : ""}`}>
             <Container>
 
-                <h1 className="text-heading-2 text-white font-sans font-bold ">
+                <h1 className={`font-sans font-bold text-white ${isSmallDevice ? "text-heading-4" : "text-heading-2"}`}>
                     Wisata Alam
                 </h1>
                 {/* <CardCaraousel /> */}
@@ -32,7 +33,7 @@ const SlideCaraousel = () => {
                             <img
                                 src={RightArrow}
                                 alt="Right Arrow"
-                                className="h-[75px] w-[75px]"
+                                className={isSmallDevice ? "h-[40px] w-[40px]" : "h-[75px] w-[75px]"}
                             />
                         </button>
                     }
@@ -41,7 +42,7 @@ const SlideCaraousel = () => {
                             <img
                                 src={LeftArrow}
                                 alt="Left Arrow"
-                                className="h-[75px] w-[75px]"
+                                className={isSmallDevice ? "h-[40px] w-[40px]" : "h-[75px] w-[75px]"}
                             />
                         </button>
                     }
@@ -55,6 +56,22 @@ const SlideCaraousel = () => {
                                 },
                                 items: 2,
                                 partialVisibilityGutter: 100,
+                            },
+                            tablet: {
+                                breakpoint: {
+                                    max: 1024,
+                                    min: 720,
+                                },
+                                items: 2,
+                                partialVisibilityGutter: 50,
+                            },
+                            mobile: {
+                                breakpoint: {
+                                    max: 720,
+                                    min: 0,
+                                },
+                                items: 1,
+                                partialVisibilityGutter: 30,
                             },
                         }
                     }

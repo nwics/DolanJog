@@ -26,6 +26,7 @@ export const SearchResult = ({result}) => {
     return (
         <Link to={`/details/${id}`} className="search-result"onClick={handleClick}>
         {result}
+        {/* {result.nama} */}
         {/* <h1>{result}</h1> */}
     </Link>
     )
