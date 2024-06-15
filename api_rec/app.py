@@ -12,6 +12,11 @@ import requests
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 from datetime import datetime
+from nltk import PorterStemmer
+from nltk.stem import PorterStemmer
+from nltk.tokenize import word_tokenize
+# from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
+import re
 
 app = Flask(__name__)
 CORS(app)
@@ -40,24 +45,48 @@ def normalize_weather():
 
 # normalized_features=normalize_weather()
 
-# Membuat stemmer
-factory = StemmerFactory()
-stemmer = factory.create_stemmer()
-# Membuat stop word remover
-stop_factory = StopWordRemoverFactory()
-stopwords = stop_factory.get_stop_words()
-# Fungsi untuk melakukan stemming pada teks
-def stem_text(text):
-    return stemmer.stem(text)
 
 # Load Movies Metadata
 dataset = pd.read_csv('E:/bil up/sem 8/codingan/dolanjo/api_rec/dataTempatWisata.csv', low_memory=False)
 
-# Membuat TF-IDF Vectorizer
-tfidf_vectorizer = TfidfVectorizer(stop_words=stopwords) 
-
 # Melakukan fitting dan transformasi pada fitur yang digabungkan untuk membuat matriks TF-IDF
 dataset["Metadata"] = dataset["Metadata"].fillna('')
+
+dataset['Metadata'] = dataset['Metadata'].str.lower()
+
+dataset['Metadata'] = dataset['Metadata'].str.replace('[^\w\s]','')
+
+
+# factory = StemmerFactory()
+# Membuat stop word remover
+factory = StopWordRemoverFactory()
+# stop_factory = StopWordRemoverFactory()
+stopwords = factory.get_stop_words()
+# stopwords = stop_factory.get_stop_words()
+dataset['Metadata'] = dataset['Metadata'].apply(lambda x: ' '.join(word for word in x.split() if word not in stopwords))
+
+# Membuat stemmer
+# Fungsi untuk melakukan stemming pada teks
+stemmer = PorterStemmer()
+dataset['Metadata'] = dataset['Metadata'].apply(lambda x: ' '.join(stemmer.stem(word) for word in x.split()))
+# stemmer = factory.create_stemmer()
+# def stem_text(text):
+#     return stemmer.stem(text)
+
+# Tokenizing
+dataset['Metadata'] = dataset['Metadata'].apply(word_tokenize)
+# Mengubah list token kembali menjadi string
+dataset['Metadata'] = dataset['Metadata'].apply(' '.join)
+# Daftar stop words dalam bahasa Indonesia
+indonesian_stopwords = ['yang', 'dan', 'di', 'dari', 'untuk', 'dengan', 'adalah', 'ke', 'pada', 'itu', 'ini', 'dalam', 'bisa', 'karena', 'jika', 'atau', 'dan', 'sebagai', 'saya', 'akan', 'kami', 'mereka', 'lebih', 'sangat', 'tapi',
+                        'juga', 'oleh', 'saat', 'harus', 'sudah', 'hanya', 'setelah', 'belum', 'selalu', 'langsung', 'misalnya', 'seperti', 'ketika', 'lain', 'maka', 'tentang', 'menjadi', 'antara', 'berada', 'serta', 'agar', 'namun',
+                        'sehingga', 'sementara', 'hingga', 'sebelum', 'sejak', 'demikian', 'kembali', 'karena', 'sedangkan', 'seolah', 'seakan', 'meski', 'sekalipun', 'seandainya', 'sebagai', 'sebagaimana', 'sebanyak', 'sedemikian', 
+                        'sejauh', 'selama', 'selamanya', 'sepanjang', 'serta', 'serupa', 'setidaknya', 'sewaktu', 'sungguh', 'tatkala', 'tetapi', 'walau', 'walaupun', 'entah', 'hendak', 'sejenak', 'apabila', 'bagi', 'bahwa', 'berkat', 
+                        'guna', 'kah', 'kecuali', 'kendati', 'ketimbang', 'meski', 'seandainya', 'sejak', 'semenjak', 'sementara', 'sungguh', 'supaya', 'tatkala', 'umpama', 'agar', 'akibat', 'alhasil', 'andaikan', 'apabila', 'asalkan', 
+                        'bahwa', 'bilamana', 'bila', 'biarpun', 'contohnya', 'guna', 'jika', 'jikalau', 'kalau', 'kalaupun', 'karena', 'kecuali', 'kelak', 'lalu', 'manakala', 'nanti', 'pantas', 'pasal', 'sampai', 'seandainya', 'sebab', 
+                        'sebelum', 'sekalipun', 'selagi', 'sementara', 'sewaktu', 'tatkala', 'tetapi', 'walaupun']
+# Membuat TF-IDF Vectorizer
+tfidf_vectorizer = TfidfVectorizer(stop_words=indonesian_stopwords) 
 tfidf_matrix = tfidf_vectorizer.fit_transform(dataset['Metadata'])
 # print(tfidf_matrix)
 

@@ -3,10 +3,10 @@
 // import Header from "./components/Header";
 // import Hero from "./components/Hero";
 import { Routes, Route } from "react-router-dom";
-import TampilanLogin from "./pages/Login";
+// import TampilanLogin from "./pages/Login";
 import Rekomendasi from "./pages/Rekomendasi";
 import Home from "./pages/Home";
-import CobaResponsive from "./components/cobaResponsive";
+// import CobaResponsive from "./components/cobaResponsive";
 // import Coba from "./pages/Coba";
 // import Testing from "./pages/testing";
 // import Details from "./pages/Details";
@@ -49,12 +49,12 @@ function App() {
       <Caraousel /> */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/login" element={<TampilanLogin />} />
+        {/* <Route path="/login" element={<TampilanLogin />} /> */}
         <Route path="/rekomendasi" element={<Rekomendasi />} />
         {/* <Route path="/coba" element={<Coba />} /> */}
         {/* <Route path="/testing" element={<Testing />} /> */}
         <Route path="/details/:id" element={<DetailsPage />} />
-        <Route path="/coba" element={<CobaResponsive />} />
+        {/* <Route path="/coba" element={<CobaResponsive />} /> */}
       </Routes>
     </div>
   );

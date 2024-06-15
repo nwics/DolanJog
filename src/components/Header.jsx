@@ -10,6 +10,7 @@ import { useMediaQuery } from "@uidotdev/usehooks";
 // import Login from "../pages/Login"
 import BurgerIcon from "../assets/icons/burger-bar.png"
 // import {unstable_HistoryRouter} from "react-router-dom"
+import logo from "../assets/icons/logo.png"
 
 const Header = () => {
     const [results, setResults] = useState([])
@@ -40,8 +41,13 @@ const Header = () => {
         <header className="h-[95px] left-0 right-0 top-0 bg-white shadow-lg p-4 z-20">
             <Container>
                 <div className={`flex items-center h-12 ${isSmallDevice ? "" : "gap-40"}`}>
-                    <div className={`${isSmallDevice ? "ml-0" : "-ml-40"}`}>
-                        <h1 className={`font-sans font-bold ${isSmallDevice ? "text-xl" : "text-4xl"}`}>DolanJo</h1>
+                    <div className={`${isSmallDevice ? "ml-0 flex" : "-ml-40 flex"}`}>
+                        <img
+                        src={logo}
+                        width="40px"
+                        height="30px"
+                        alt="" />
+                        <h1 className={`font-sans font-bold ${isSmallDevice ? "text-xl ml-2" : "text-4xl ml-2"}`}>DolanJo</h1>
                     </div>
                     {/* membuat search */}
                     {/* <form onSubmit={handleSubmit} className="h-[50px] w-[300px] flex items-center">

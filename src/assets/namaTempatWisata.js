@@ -5958,13 +5958,13 @@ export const wisataData = [
   },
   {
     id: 136,
-    nama: "The Palace Museum (Museum Gedung Balerante)",
+    nama: "Monggo Museum Chocolate",
     deskripsi:
-      "Terletak di gedung bersejarah yang sebelumnya adalah kediaman para bangsawan Keraton Yogyakarta, The Palace Museum memberikan pengalaman eksklusif mengenai kehidupan istana. Dengan koleksi artefak yang mencakup perabotan, kostum, dan alat-upacara, museum ini membawa pengunjung pada perjalanan mendalam ke dalam sejarah dan kekayaan budaya kerajaan.",
-    jam: "09.00 - 15.00",
+      "Bukalah wawasan cokelat yang kaya dan beraroma! Benamkan diri Kamu dalam pengalaman yang memanjakan di pabrik kami. Selidiki keinginan Kamu akan cokelat dan nikmati pengalaman yang luar biasa. Kamu bisa berkunjung sendiri, bersama keluarga dan teman, atau beramai-ramai. Kami sangat menantikan kedatanganmu. Saksikan setiap tahapan proses pembuatan cokelat, dari biji kakao hingga menjadi sebuah produk di fasilitas canggih kami.Dapatkan keterampilan langsung dengan berpartisipasi membuat mahakarya cokelat milikmu atau tingkatkan pengetahuanmu tentang cokelat dengan berpartisipasi dalam kegiatan mencicipi dan mengevaluasi beragam minuman cokelat kami. Perluas bentuk apresiasi untuk kelezatan yang digandrungi ini.",
+    jam: "09.00 - 17.00",
     harga: "5000-20000",
     lokasi:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15811.798268017812!2d110.34874409406852!3d-7.79516472559682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a578e39a1cabb%3A0x3fd2057b8163d7e6!2sMuseum%20Kereta%20Keraton!5e0!3m2!1sid!2sid!4v1715398167568!5m2!1sid!2sid",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.518353828017!2d110.29524397476652!3d-7.840688792180621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af8f7c5657917%3A0xec7e4071bfef638a!2sChocolate%20Kingdom%20Museum%20Factory%20Store%20%26%20Kedai!5e0!3m2!1sid!2sid!4v1718450133876!5m2!1sid!2sid",
     fasilitas: [
       { nama: "Lokasi Fotografi", icon: foto },
       { nama: "Area Merokok", icon: rokok },
@@ -5987,12 +5987,18 @@ export const wisataData = [
       },
     ],
     web: {
-      title: "Balerante Menuju Desa Wisata",
-      link: "https://www.krjogja.com/klaten/1242642502/balerante-menuju-desa-wisata",
+      title: "BERKUNJUNG KE MUSEUM MONGGO",
+      link: "https://chocolatemonggo.com/id/rumah-cokelat/kerajaan-cokelat/museum/",
     },
-    foto: ["", "", "", "", ""],
+    foto: [
+      "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2022/08/04/15d88381-5306-42a3-b4e2-c7daef71e622-1659592241173-d63de1975315d951a30a5233794aa3ab.jpg",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/45/06/54/museum-chocolate-monggo.jpg?w=1200&h=-1&s=1",
+      "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2022/08/04/7049d91c-883d-44a8-bfcd-4f088888c6af-1659592204344-3367f86b1bbc574489a38228cb0dae88.jpg",
+      "https://cdn.idntimes.com/content-images/community/2022/01/museum-cokelat-monggo-3-817344dbc96c62539606fae3b74e835d-b801548f2e294498e3b16c77cb8d3d8b.jpg",
+      "https://niagatour.com/wp-content/uploads/2023/08/museum-cokelat-monggo.jpg",
+    ],
     "detail lokasi":
-      "Jl. Tompeyan No.156, Tegalrejo, Kec. Tegalrejo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55244",
+      "Jl. Tugu Gentong No.RT 03, Sribitan, Bangunjiwo, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55184",
   },
   {
     id: 137,

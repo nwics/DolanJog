@@ -186,7 +186,7 @@ const Rekomendasi = () => {
                         <div className= {`flex flex-col rounded-xl overflow-hidden mt-10 white-shadow `}>
                             <h1 className="font-bold text-black ">Fasilitas :</h1>
                             <div className={`${isSmallDevice ? "flex flex-col-2 gap-10" : ""}`}>
-                                <div className={`flex ${isSmallDevice ? "flex-col justify-center marginl" : "gap-10 justify-center"} padding`}>
+                                <div className={`flex ${isSmallDevice ? "flex-col justify-center marginl" : "gap-10 justify-center"} `}>
                                     <label for="Kamar Mandi"></label>
                                     <input className={` toilet ${isSmallDevice ? "card-checkbox-hp" : "card-checkbox"} `} type="checkbox" id="Kamar Mandi" data-label="Kamar Mandi"name="fasilitas" value="Kamar Mandi" onChange={handleFasilitasChange} /> <br/>
                                     <label for="Restoran"></label>
@@ -197,7 +197,7 @@ const Rekomendasi = () => {
                                     <input className={` hotel ${isSmallDevice ? "card-checkbox-hp" : "card-checkbox"} `}  type="checkbox" id="Hotel" data-label="Hotel" name="fasilitas" value="Hotel" onChange={handleFasilitasChange} /> <br/>
                                 </div>
                             
-                                <div className={`flex ${isSmallDevice ? "flex-col justify-center marginl" : "gap-10 justify-center"} `}>
+                                <div className={`flex ${isSmallDevice ? "flex-col justify-center marginl ml-10" : "gap-10 justify-center"} `}>
                                     <label for="Masjid"></label>
                                     <input className={` masjid ${isSmallDevice ? "card-checkbox-hp" : "card-checkbox"} `}  type="checkbox" id="Masjid" data-label="Masjid" name="fasilitas" value="Masjid" onChange={handleFasilitasChange} /> <br/>
                                     <label for="ATM"></label>
@@ -214,7 +214,7 @@ const Rekomendasi = () => {
                         <input className="border" type="text" name="kategori" value={inputs.kategori} onChange={HandleChange} placeholder="masukkan kategori ....."/> <br/> */}
                         {/* <label>Fasilitas :</label>
                         <input className="border" type="text" name="rating" value={inputs.rating} onChange={HandleChange} placeholder="masukkan rating ....."/> <br/> */}
-                        <div className="flex justify-center mt-10">
+                        <div className="flex justify-start ml-10 mt-10">
                             <button className="button white-shadow width text-black bg-blue-100">Dapatkan rekomendasi</button>
                         </div>
                     </form>
