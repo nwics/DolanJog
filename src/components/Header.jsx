@@ -43,11 +43,12 @@ const Header = () => {
                 <div className={`flex items-center h-12 ${isSmallDevice ? "" : "gap-40"}`}>
                     <div className={`${isSmallDevice ? "ml-0 flex" : "-ml-40 flex"}`}>
                         <img
+                        className={`${isSmallDevice ? "w-[32px] h-[22px] mt-1":"w-[40px] h-[30px] mt-2  "}`}
                         src={logo}
-                        width="40px"
-                        height="30px"
+                        // width="40px"
+                        // height="30px"
                         alt="" />
-                        <h1 className={`font-sans font-bold ${isSmallDevice ? "text-xl ml-2" : "text-4xl ml-2"}`}>DolanJo</h1>
+                        <h1 className={`font-sans font-bold ${isSmallDevice ? " text-lg ml-2" : "text-4xl ml-2"}`}>DolanJo</h1>
                     </div>
                     {/* membuat search */}
                     {/* <form onSubmit={handleSubmit} className="h-[50px] w-[300px] flex items-center">
