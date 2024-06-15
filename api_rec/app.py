@@ -25,22 +25,16 @@ CORS(app)
 def normalize_weather():
   with open('weather.json', 'r') as f:
     data_weather = json.load(f)
-
-#   print("data cuaca:",data_weather)
     # Mengambil nilai 'code' untuk dijadikan fitur yang akan dinormalisasi
   features_to_normalize = [entry["code"] for entry in data_weather]
 
   # Menggunakan MinMaxScaler untuk normalisasi
   scaler = MinMaxScaler()
-  normalized_features = scaler.fit_transform([[code] for code in features_to_normalize])
+  normalized_features = scaler.fit_transform(np.array(features_to_normalize).reshape(-1, 1))
 
   # Memasukkan nilai yang sudah dinormalisasi kembali ke dalam data cuaca
   for i, entry in enumerate(data_weather):
       entry["code_normalized"] = normalized_features[i][0]
-
-  # Menampilkan hasil
-  # for entry in data_weather:
-  #   print(entry)
   return normalized_features ,data_weather
 
 # normalized_features=normalize_weather()
@@ -90,7 +84,6 @@ tfidf_vectorizer = TfidfVectorizer(stop_words=indonesian_stopwords)
 tfidf_matrix = tfidf_vectorizer.fit_transform(dataset['Metadata'])
 # print(tfidf_matrix)
 
-
 # meminta API cuaca
 def get_weather(time) :
       # Ganti dengan API key Anda
@@ -109,10 +102,6 @@ def get_weather(time) :
     print(f"hari ini tanggal {day} pada jam {time} suhu mencapai {suhu} dengan prediksi {forecast}")
     return forecast
 
-#   # Menampilkan hasil
-#   for entry in data_weather:
-#     print(entry)
-
 def get_recommendations(harga, fasilitas, deskripsi,waktu,kategori):
 
     # mengamabil data cuaca
@@ -126,24 +115,20 @@ def get_recommendations(harga, fasilitas, deskripsi,waktu,kategori):
     if (weather_code_normalized <= 0.5) :
         print("cuaca sedang baik, maka disarankan tempat Outdoor:")
         tempat_cuaca ="Outdoor"
-        # data_metadata = tempat_cuaca["Metadata"]
-        # tfidf_matrix = tfidf_vectorizer.fit_transform(data_metadata)
-        # print("tempat Outdoor:", data_metadata)
+        
     else :
         print("cuaca sedang buruk, maka disarankan tempat indoor")
         tempat_cuaca = "Indoor"
-        # data_metadata = tempat_cuaca["Metadata"]
-        # tfidf_matrix = tfidf_vectorizer.fit_transform(data_metadata)
-        # print("ini adalah tfidf:", tfidf_matrix)
-        # print("tempat Indoor:", data_metadata)
+       
     
     user_input = f"{harga} {fasilitas} {deskripsi} {weather_input} {kategori} "
     user_input_vector = tfidf_vectorizer.transform([user_input])
     # Handling jika vektor kosong
     if np.all(user_input_vector.toarray() == 0):
         # Menggunakan vektor rata-rata dari dataset
-        average_vector = np.mean(tfidf_matrix, axis=0)
-        user_input_vector = average_vector.reshape(1, -1)
+        average_vector = np.mean(tfidf_matrix.toarray(), axis=0)
+        user_input_vector = np.asarray(average_vector).reshape(1, -1)
+
     # Menghitung kesamaan kosinus antara input pengguna dan tempat-tempat lain
     cosine_sim_user = linear_kernel(user_input_vector, tfidf_matrix).flatten()
     
@@ -167,14 +152,6 @@ def get_recommendations(harga, fasilitas, deskripsi,waktu,kategori):
     filtered_data['cosine_sim'] = cosine_sim_filtered
     filtered_data = filtered_data.sort_values(by='cosine_sim', ascending=False).head(10)
     print("filtered data:", filtered_data)
-    # print("cosine sim filtered:", cosine_sim_filtered)
-    # Ubah Series cosine_sim_filtered menjadi DataFrame
-    # cosine_sim_matrix = pd.DataFrame(cosine_sim_filtered)
-
-    # Cetak matriks
-    # print(cosine_sim_matrix)
-    # place_indices = [i for i in cosine_sim_user.argsort()[:-11:-1] if dataset.iloc[i]["Kategori"] == tempat_cuaca]
-    # Menampilkan rekomendasi tempat
     print("place indices:", place_indices)
     print("weather input:", weather_input)
     # print("normalized feature:", normalized_features)
@@ -182,20 +159,12 @@ def get_recommendations(harga, fasilitas, deskripsi,waktu,kategori):
     print("User Input Vector:", user_input_vector)
    
     recommendations = []
-    # for index in place_indices:
-    #     place_data = dataset.iloc[index]
-    #     place_name = place_data['Place_Name']
-    #     place_kategori = place_data['Kategori']
-    #     recommendations.append({'Place_Name': place_name, 'Kategori': place_kategori, 'Cosine_Similarity': cosine_sim_user[index]})
     for index, row in filtered_data.iterrows():
         place_name = row['Place_Name']
         place_kategori = row['Kategori']
         cosine_similarity = row['cosine_sim']
         Place_ID = row['Place_ID']
         recommendations.append({'Place_Name': place_name, 'Kategori': place_kategori, 'Cosine_Similarity': cosine_similarity,'Place_ID': Place_ID })
-
-
-    # print("ini hanya cek :",recommendations)
     return recommendations
 
 @app.route('/hasil', methods=['POST'])
@@ -204,18 +173,12 @@ def hasil():
     if request.method == 'POST':
         data_str = request.data.decode('utf-8')
         data = json.loads(data_str)
-        # data = json.loads(request.data)
-        # inputs = [data.get("harga"),data.get("kategori"),data.get("rating"),data.get("deskripsi")]
         harga = data['inputs']['harga']
-        # kategori = data['inputs']['kategori']
         fasilitas = data['inputs']['fasilitas']
         kategori = data['inputs']['kategori']
         deskripsi = data['inputs']['deskripsi']
         waktu = data['inputs']['waktu']
-        # print("data apaan:",data)
-        # print("cek harga:" ,harga)
         place_dictionary = get_recommendations(harga,fasilitas, deskripsi, waktu,kategori)
-        # print("hasilnya adalah:",place_dictionary)
         return jsonify(place_dictionary)
     else :
         return jsonify({"message: invalid method"}), 405
