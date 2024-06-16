@@ -237,29 +237,28 @@ const DetailsPage = () => {
             
                         <li className="font-sans text-2xl font-bold ml-10 flex  gap-3">
                             <img src={tempatWisata.fasilitas[0].icon} alt="" width={isSmallDevice ? "40px" : "80px"} height="40px"/>
-                            <p className="item-center">{tempatWisata.fasilitas[0].nama}</p>
+                            <p className={`item-center ml-2 ${isSmallDevice ? "" : "mt-5"}` }>{tempatWisata.fasilitas[0].nama}</p>
                         </li>
                         <li className="font-sans text-2xl font-bold ml-10 flex  gap-3">
                             <img src={tempatWisata.fasilitas[1].icon} alt="" width={isSmallDevice ? "40px" : "80px"} height="40px"/>
-                            <p className="item-center">{tempatWisata.fasilitas[1].nama}</p>
+                            <p className={`item-center ml-2 ${isSmallDevice ? "" : "mt-5"}` }>{tempatWisata.fasilitas[1].nama}</p>
                         </li>
                         <li className="font-sans text-2xl font-bold ml-10 flex  gap-3">
                             <img src={arah} alt="" width={isSmallDevice ? "40px" : "80px"} height="40px"/>
-                            <p className="item-center">Penunjuk Arah</p>
+                            <p className={`item-center ml-2 ${isSmallDevice ? "" : "mt-5"}` }>Penunjuk Arah</p>
                         </li>
                         <li className="font-sans text-2xl font-bold ml-10 flex  gap-3">
                             <img src={tempatWisata.fasilitas[2].icon} alt="" width={isSmallDevice ? "40px" : "80px"} height="40px"/>
-                            <p className="item-center">{tempatWisata.fasilitas[2].nama}</p>
+                            <p className={`item-center ml-2 ${isSmallDevice ? "" : "mt-5"}` }>{tempatWisata.fasilitas[2].nama}</p>
                             
                         </li>
                         <li className="font-sans text-2xl font-bold ml-10 flex  gap-3">
                             <img src={tempatWisata.fasilitas[3].icon} alt="" width={isSmallDevice ? "40px" : "80px"} height="40px"/>
-                            <p className="item-center">{tempatWisata.fasilitas[3].nama}</p>
+                            <p className={`item-center ml-2 ${isSmallDevice ? "" : "mt-5"}` }>{tempatWisata.fasilitas[3].nama}</p>
                         </li>
                         <li className="font-sans text-2xl font-bold ml-10 flex  gap-3">
                             <img src={tempatWisata.fasilitas[4].icon} alt="" width={isSmallDevice ? "40px" : "80px"} height="40px"/>
-                            
-                            <p className="item-center">{tempatWisata.fasilitas[4].nama}</p>
+                            <p className={`item-center ml-2 ${isSmallDevice ? "" : "mt-5"}` }>{tempatWisata.fasilitas[4].nama}</p>
                         </li>
                         
                     </ul>
