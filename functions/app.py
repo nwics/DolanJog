@@ -41,7 +41,7 @@ def normalize_weather():
 
 
 # Load Movies Metadata
-dataset = pd.read_csv('E:/bil up/sem 8/codingan/dolanjo/api_rec/dataTempatWisata.csv', low_memory=False)
+dataset = pd.read_csv('E:/bil up/sem 8/codingan/dolanjo/functions/dataTempatWisata.csv', low_memory=False)
 
 # Melakukan fitting dan transformasi pada fitur yang digabungkan untuk membuat matriks TF-IDF
 dataset["Metadata"] = dataset["Metadata"].fillna('')
@@ -183,6 +183,5 @@ def hasil():
     else :
         return jsonify({"message: invalid method"}), 405
     
-
-if __name__ == "__main__" :
-    app.run(debug=True)
+# if __name__ == "__main__" :
+app.run(debug=True)
