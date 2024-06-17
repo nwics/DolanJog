@@ -1,12 +1,12 @@
 [build]
-command = " pip install -r requirements.txt && gunicorn -b 0.0.0.0:$PORT functions.app:app"
+command = " pip install -r requirements.txt && python -m gunicorn -b 0.0.0.0:$PORT functions.app:app"
 publish = "dolanjo"
 
 [context.production.environment]
 PYTHON_VERSION = "3.8"
 
 [context.production]
-command = "pip install -r requirements.txt && gunicorn -b 0.0.0.0:$PORT functions.app:app"
+command = "pip install -r requirements.txt && python -m gunicorn -b 0.0.0.0:$PORT functions.app:app"
 publish = "dolanjo"
 
 [[redirects]]
