@@ -23,20 +23,7 @@ const Header = () => {
         
     };  
     
-    
-    // const [searchTerm, setSearchTerm] = useState("")
-    // const [results, setResult] = useState([])
-    // const handleChange = e => {
-    //     setSearchTerm(e.target.value)
-    // }
-    // const handleSubmit = e => {
-    //     e.preventDevault();
-    //     const hasil = wisataData.filter(wisata =>
-    //         wisata.nama.toLocaleLowerCase().includes
-    //         (searchTerm.toLocaleLowerCase()))
-    //     setResult(hasil)
-    // }
-
+   
     return (
         <header className="h-[95px] left-0 right-0 top-0 bg-white shadow-lg p-4 z-20">
             <Container>
@@ -67,14 +54,8 @@ const Header = () => {
                     {/* <SearchBar suggestions={wisataData}/> */}
                     <div className={`search-bar-container ${isSmallDevice ? "ml5" : ""}`} style={{position: 'relative'}}>
                         <SearchBar setResults={setResults} />
-                        {/* {results && results.length > 0 && <SearchResultList results={results} />} */}
-                        {/* {results && results.map((result) => (
-                                <SearchResultList key={result.id} result={result} />
-                            ))} */}
+                
                         {results && results.length > 0 ? <SearchResultList results={results} /> : null}
-
-                        {/* {results && results.length > 0 ? <SearchResultList results={results} /> : null} */}
-
                     </div>
                     <div className="ml-20">
 
