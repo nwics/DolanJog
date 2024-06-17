@@ -17,6 +17,7 @@ from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
 # from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
 import re
+import os
 
 app = Flask(__name__)
 CORS(app)
@@ -39,9 +40,9 @@ def normalize_weather():
 
 # normalized_features=normalize_weather()
 
-
+# file_path = os.path.join('functions', 'dataTempatWisata.csv')
 # Load Movies Metadata
-dataset = pd.read_csv('E:/bil up/sem 8/codingan/dolanjo/functions/dataTempatWisata.csv', low_memory=False)
+dataset = pd.read_csv('../functions/dataTempatWisata.csv', low_memory=False)
 
 # Melakukan fitting dan transformasi pada fitur yang digabungkan untuk membuat matriks TF-IDF
 dataset["Metadata"] = dataset["Metadata"].fillna('')
