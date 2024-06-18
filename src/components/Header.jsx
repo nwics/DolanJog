@@ -14,7 +14,7 @@ import logo from "../assets/icons/logo.png"
 
 const Header = () => {
     const [results, setResults] = useState([])
-    console.log("ini resultsnya:",results)
+    // console.log("ini resultsnya:",results)
     const isSmallDevice = useMediaQuery("only screen and (max-width: 768px)");
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const toggleMenu = () => {
