@@ -48,7 +48,7 @@ const Rekomendasi = () => {
         
         // })
         setLoading(true);
-        console.log("Meminta request pada Backend .....")
+        console.log("Meminta request .....")
         fetch("/hasil", {
             method: "POST",
             cache: "no-cache",
