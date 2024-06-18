@@ -1,4 +1,5 @@
 from flask import Flask,request, jsonify
+from flask_ngrok import run_with_ngrok
 import pandas as pd
 import json
 from flask_cors import CORS
@@ -20,6 +21,7 @@ import re
 import os
 
 app = Flask(__name__)
+run_with_ngrok(app)
 CORS(app)
 
 
@@ -185,4 +187,5 @@ def hasil():
         return jsonify({"message: invalid method"}), 405
     
 # if __name__ == "__main__" :
-app.run(debug=True)
+app.run()
+# app.run(debug=True)
